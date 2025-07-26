@@ -1,0 +1,9 @@
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.RazorAssemblyInfo.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship\obj\Debug\net8.0\WorldRallyChampionship.Web.RazorAssemblyInfo.cs
