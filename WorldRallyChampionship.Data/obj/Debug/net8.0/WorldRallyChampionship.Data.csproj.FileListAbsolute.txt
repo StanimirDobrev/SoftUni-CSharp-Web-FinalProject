@@ -17,3 +17,4 @@ C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampions
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.pdb
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.genruntimeconfig.cache
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\ref\WorldRallyChampionship.Data.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.sourcelink.json

@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using WorldRallyChampionship.Data;
+using WorldRallyChampionship.Data.Models;
+
 namespace WorldRallyChampionship
 {
 	public class Program
@@ -6,6 +11,19 @@ namespace WorldRallyChampionship
 		{
 			var builder = WebApplication.CreateBuilder(args);
 
+			builder.Services.AddDbContext<ApplicationDbContext>(options =>
+			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+			builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+			{
+				options.SignIn.RequireConfirmedAccount = false;
+				options.Password.RequireDigit = false;
+				options.Password.RequireNonAlphanumeric = false;
+				options.Password.RequireUppercase = false;
+				options.Password.RequireLowercase = false;
+			})
+				.AddRoles<IdentityRole>()
+				.AddEntityFrameworkStores<ApplicationDbContext>();
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 

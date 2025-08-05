@@ -12,3 +12,4 @@ C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampions
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.GCommon\obj\Debug\net8.0\WorldRallyChampionship.GCommon.pdb
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.GCommon\obj\Debug\net8.0\WorldRallyChampionship.GCommon.genruntimeconfig.cache
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.GCommon\obj\Debug\net8.0\ref\WorldRallyChampionship.GCommon.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.GCommon\obj\Debug\net8.0\WorldRallyChampionship.GCommon.sourcelink.json
