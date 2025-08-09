@@ -32,6 +32,8 @@ namespace WorldRallyChampionship.Data.Models
 		[StringLength(1000)]
 		public string? Description { get; set; }
 
+		public string? ImageUrl { get; set; }
+
 		public ICollection<Result> Results { get; set; } = new List<Result>();
 		public ICollection<Comment> Comments { get; set; } = new List<Comment>();
 	}

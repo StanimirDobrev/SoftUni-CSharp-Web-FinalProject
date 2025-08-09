@@ -8,6 +8,9 @@ namespace WorldRallyChampionship.Web.ViewModels
 {
 	public class OptionViewModel
 	{
+
+		public int Id { get; set; }
+		public string Name { get; set; } = null!;
 		public int Value { get; set; }
 		public string Text { get; set; } = null!;
 

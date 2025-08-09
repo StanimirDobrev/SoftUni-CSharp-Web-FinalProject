@@ -74,6 +74,76 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IdentityUser");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "7699db7d-964f-4782-8209-d76562e0fece",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "de67f6f5-5020-4fe7-8251-b4c7d8aed525",
+                            Email = "admin@horizons.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@HORIZONS.COM",
+                            NormalizedUserName = "ADMIN@HORIZONS.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPJVHtElkNffGjaUzypESBFBYdiWwAvZyUC6DMxsu3LG+6meTZ8MgdpAfedmPp+KXQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "e606382c-3d84-4622-8196-e2062677ff29",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@horizons.com"
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -277,6 +347,9 @@ namespace WorldRallyChampionship.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -295,6 +368,68 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("Drivers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateOfBirth = new DateTime(2000, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Kalle",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/kalle-rovanpera.png",
+                            LastName = "Rovanperä",
+                            Nationality = "Finland",
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DateOfBirth = new DateTime(1988, 12, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Elfyn",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/elfyn-evans.png",
+                            LastName = "Evans",
+                            Nationality = "Wales",
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DateOfBirth = new DateTime(1988, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Thierry",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/thierry-neuville.png",
+                            LastName = "Neuville",
+                            Nationality = "Belgium",
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DateOfBirth = new DateTime(1987, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Ott",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/ott-tanak.png",
+                            LastName = "Tänak",
+                            Nationality = "Estonia",
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DateOfBirth = new DateTime(1995, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Adrien",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/adrien-fourmaux.png",
+                            LastName = "Fourmaux",
+                            Nationality = "France",
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DateOfBirth = new DateTime(1998, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Grégoire",
+                            ImageUrl = "https://www.wrc.com/assets/img/drivers/gregoire-munster.png",
+                            LastName = "Munster",
+                            Nationality = "Luxembourg",
+                            TeamId = 3
+                        });
                 });
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.RallyEvent", b =>
@@ -317,6 +452,9 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -333,6 +471,41 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RallyEvents");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Country = "Monaco / France",
+                            Description = "Legendary winter tarmac rally.",
+                            EndDate = new DateTime(2025, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.wrc.com/assets/img/events/montecarlo.jpg",
+                            Name = "Rallye Monte-Carlo",
+                            StartDate = new DateTime(2025, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Tarmac"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Country = "Sweden",
+                            Description = "Fast snow stages with snowbanks.",
+                            EndDate = new DateTime(2025, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.wrc.com/assets/img/events/sweden.jpg",
+                            Name = "Rally Sweden",
+                            StartDate = new DateTime(2025, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Snow"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Country = "Croatia",
+                            Description = "Technical tarmac with tricky cuts.",
+                            EndDate = new DateTime(2025, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.wrc.com/assets/img/events/croatia.jpg",
+                            Name = "Croatia Rally",
+                            StartDate = new DateTime(2025, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Tarmac"
+                        });
                 });
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Result", b =>
@@ -375,6 +548,9 @@ namespace WorldRallyChampionship.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("LogoUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Manufacturer")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -388,6 +564,29 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Teams");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            LogoUrl = "https://www.wrc.com/assets/img/teams/toyota-logo.png",
+                            Manufacturer = "Toyota",
+                            Name = "Toyota Gazoo Racing"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            LogoUrl = "https://www.wrc.com/assets/img/teams/hyundai-logo.png",
+                            Manufacturer = "Hyundai",
+                            Name = "Hyundai Shell Mobis"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            LogoUrl = "https://www.wrc.com/assets/img/teams/ford-logo.png",
+                            Manufacturer = "Ford",
+                            Name = "M-Sport Ford"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

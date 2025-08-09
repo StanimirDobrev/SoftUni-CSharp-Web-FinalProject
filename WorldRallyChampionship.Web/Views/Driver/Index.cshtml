@@ -1,0 +1,26 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Driver.DriverViewModel>
+
+@{
+    ViewData["Title"] = "Drivers";
+}
+
+<h2 class="mb-4 text-center">WRC Drivers</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var driver in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@driver.ImageUrl" class="card-img-top" alt="@driver.FullName" style="object-fit: cover; height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title">@driver.FullName</h5>
+                    <p class="card-text">
+                        <strong>Nationality:</strong> @driver.Nationality <br />
+                        <strong>Team:</strong> @driver.TeamName
+                    </p>
+                    <a asp-action="Details" asp-route-id="@driver.Id" class="btn btn-primary btn-sm">View Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

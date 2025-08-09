@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Team.TeamViewModel>
+
+@{
+	ViewData["Title"] = "Teams";
+}
+
+<h2 class="mb-4 text-center">WRC Teams</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+	@foreach (var team in Model)
+	{
+		<div class="col">
+			<div class="card h-100 shadow-sm text-center">
+				<img src="@team.LogoUrl" class="card-img-top p-4" alt="@team.Name" style="object-fit: contain; height: 200px;">
+				<div class="card-body">
+					<h5 class="card-title">@team.Name</h5>
+					<p class="card-text"><strong>Manufacturer:</strong> @team.Manufacturer</p>
+					<a asp-action="Details" asp-route-id="@team.Id" class="btn btn-primary btn-sm">View Details</a>
+				</div>
+			</div>
+		</div>
+	}
+</div>

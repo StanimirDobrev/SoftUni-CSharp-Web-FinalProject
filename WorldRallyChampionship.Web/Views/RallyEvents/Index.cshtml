@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.RallyEvent.RallyEventViewModel>
+
+@if (Model == null || !Model.Any())
+{
+	<div class="alert alert-info">No rallies available.</div>
+}
+else
+{
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		@foreach (var rally in Model)
+		{
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					@if (!string.IsNullOrWhiteSpace(rally.ImageUrl))
+					{
+						<img src="@rally.ImageUrl"
+							 alt="@rally.Name"
+							 class="card-img-top"
+							 style="object-fit: cover; height: 200px;" />
+					}
+					else
+					{
+						<div class="d-flex align-items-center justify-content-center bg-light"
+							 style="height: 200px;">
+							<span class="text-muted">No image</span>
+						</div>
+					}
+
+					<div class="card-body">
+						<h5 class="card-title mb-2">@rally.Name</h5>
+						<p class="card-text mb-2">
+							<span class="badge bg-primary me-2">@rally.Surface</span>
+							<span class="badge bg-secondary">@rally.Country</span>
+						</p>
+						<p class="text-muted mb-3">
+							@rally.StartDate.ToString("dd MMM yyyy") – @rally.EndDate.ToString("dd MMM yyyy")
+						</p>
+						<a asp-action="Details" asp-route-id="@rally.Id" class="btn btn-primary btn-sm">
+							View Details
+						</a>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+}

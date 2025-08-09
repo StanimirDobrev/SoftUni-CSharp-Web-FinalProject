@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+	using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WorldRallyChampionship.Data;
 using WorldRallyChampionship.Data.Models;
@@ -28,9 +28,12 @@ namespace WorldRallyChampionship.Web
 				.AddEntityFrameworkStores<ApplicationDbContext>();
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
+			builder.Services.AddRazorPages();
 
 			builder.Services.AddScoped<IDriverService, DriverService>();
 			builder.Services.AddScoped<ITeamService, TeamService>();
+			builder.Services.AddScoped<IRallyEventService, RallyEventService>();
+
 
 			var app = builder.Build();
 
@@ -47,11 +50,14 @@ namespace WorldRallyChampionship.Web
 
 			app.UseRouting();
 
+			app.UseAuthentication();
 			app.UseAuthorization();
 
 			app.MapControllerRoute(
 				name: "default",
 				pattern: "{controller=Home}/{action=Index}/{id?}");
+
+			app.MapRazorPages();
 
 			app.Run();
 		}

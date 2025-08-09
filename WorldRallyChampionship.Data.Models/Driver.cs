@@ -32,6 +32,8 @@ namespace WorldRallyChampionship.Data.Models
 
 		public Team Team { get; set; } = null!;
 
+		public string? ImageUrl { get; set; }
+
 		public ICollection<Result> Results { get; set; } = new List<Result>();
 		public ICollection<Comment> Comments { get; set; } = new List<Comment>();
 	}

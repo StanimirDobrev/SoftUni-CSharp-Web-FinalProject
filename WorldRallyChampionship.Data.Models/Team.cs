@@ -19,6 +19,8 @@ namespace WorldRallyChampionship.Data.Models
 		[StringLength(100)]
 		public string Manufacturer { get; set; } = null!;
 
+		public string? LogoUrl { get; set; }
+
 		public ICollection<Driver> Drivers { get; set; } = new List<Driver>();
 	}
 }
