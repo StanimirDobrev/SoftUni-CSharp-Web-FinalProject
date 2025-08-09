@@ -11,11 +11,11 @@ namespace WorldRallyChampionship.Data
 		{
 		}
 
-		public DbSet<RallyEvent> RallyEvents { get; set; } = null!;
-		public DbSet<Driver> Drivers { get; set; } = null!;
-		public DbSet<Team> Teams { get; set; } = null!;
-		public DbSet<Result> Results { get; set; } = null!;
-		public DbSet<Comment> Comments { get; set; } = null!;
+		public virtual DbSet<RallyEvent> RallyEvents { get; set; } = null!;
+		public virtual DbSet<Driver> Drivers { get; set; } = null!;
+		public virtual DbSet<Team> Teams { get; set; } = null!;
+		public virtual DbSet<Result> Results { get; set; } = null!;
+		public virtual DbSet<Comment> Comments { get; set; } = null!;
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{

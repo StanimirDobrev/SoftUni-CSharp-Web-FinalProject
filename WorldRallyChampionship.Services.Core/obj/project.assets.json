@@ -1730,6 +1730,19 @@
         "runtime": {
           "bin/placeholder/WorldRallyChampionship.GCommon.dll": {}
         }
+      },
+      "WorldRallyChampionship.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WorldRallyChampionship.GCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorldRallyChampionship.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorldRallyChampionship.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -4552,6 +4565,11 @@
       "type": "project",
       "path": "../WorldRallyChampionship.GCommon/WorldRallyChampionship.GCommon.csproj",
       "msbuildProject": "../WorldRallyChampionship.GCommon/WorldRallyChampionship.GCommon.csproj"
+    },
+    "WorldRallyChampionship.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../WorldRallyChampionship.Web.ViewModels/WorldRallyChampionship.Web.ViewModels.csproj",
+      "msbuildProject": "../WorldRallyChampionship.Web.ViewModels/WorldRallyChampionship.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4564,7 +4582,8 @@
       "Newtonsoft.Json >= 13.0.3",
       "WorldRallyChampionship.Data >= 1.0.0",
       "WorldRallyChampionship.Data.Models >= 1.0.0",
-      "WorldRallyChampionship.GCommon >= 1.0.0"
+      "WorldRallyChampionship.GCommon >= 1.0.0",
+      "WorldRallyChampionship.Web.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4602,6 +4621,9 @@
             },
             "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
               "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj"
+            },
+            "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj"
             }
           }
         }

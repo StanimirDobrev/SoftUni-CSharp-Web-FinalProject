@@ -18,10 +18,11 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\WorldRallyChampionship.Data.Models\WorldRallyChampionship.Data.Models.csproj" />
-    <ProjectReference Include="..\WorldRallyChampionship.Data\WorldRallyChampionship.Data.csproj" />
-    <ProjectReference Include="..\WorldRallyChampionship.GCommon\WorldRallyChampionship.GCommon.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\WorldRallyChampionship.Data\WorldRallyChampionship.Data.csproj" />
+		<ProjectReference Include="..\WorldRallyChampionship.Data.Models\WorldRallyChampionship.Data.Models.csproj" />
+		<ProjectReference Include="..\WorldRallyChampionship.Web.ViewModels\WorldRallyChampionship.Web.ViewModels.csproj" />
+		<ProjectReference Include="..\WorldRallyChampionship.GCommon\WorldRallyChampionship.GCommon.csproj" />
+	</ItemGroup>
 
 </Project>

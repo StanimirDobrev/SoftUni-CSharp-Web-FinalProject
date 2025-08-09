@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldRallyChampionship.Services.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a286abfd551da4f605335f04863c590bb42d7613")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99e5ef67f73fb8a6041176d40a19d7e5af05f5fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorldRallyChampionship.Services.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldRallyChampionship.Services.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

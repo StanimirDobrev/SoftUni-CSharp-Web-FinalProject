@@ -11,10 +11,10 @@ C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampions
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.AssemblyInfoInputs.cache
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.AssemblyInfo.cs
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.sourcelink.json
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRal.A708E29A.Up2Date
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.dll
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\refint\WorldRallyChampionship.Data.dll
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.pdb
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.genruntimeconfig.cache
 C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\ref\WorldRallyChampionship.Data.dll
-C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Data\obj\Debug\net8.0\WorldRallyChampionship.Data.sourcelink.json

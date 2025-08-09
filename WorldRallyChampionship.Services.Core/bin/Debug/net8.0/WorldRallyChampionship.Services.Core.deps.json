@@ -16,7 +16,8 @@
           "Newtonsoft.Json": "13.0.3",
           "WorldRallyChampionship.Data": "1.0.0",
           "WorldRallyChampionship.Data.Models": "1.0.0",
-          "WorldRallyChampionship.GCommon": "1.0.0"
+          "WorldRallyChampionship.GCommon": "1.0.0",
+          "WorldRallyChampionship.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "WorldRallyChampionship.Services.Core.dll": {}
@@ -1053,6 +1054,14 @@
         "runtime": {
           "WorldRallyChampionship.GCommon.dll": {}
         }
+      },
+      "WorldRallyChampionship.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "WorldRallyChampionship.GCommon": "1.0.0"
+        },
+        "runtime": {
+          "WorldRallyChampionship.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1675,6 +1684,11 @@
       "sha512": ""
     },
     "WorldRallyChampionship.GCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorldRallyChampionship.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
