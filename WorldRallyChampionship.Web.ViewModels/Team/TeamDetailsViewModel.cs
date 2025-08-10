@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorldRallyChampionship.Web.ViewModels.Driver;
 
 namespace WorldRallyChampionship.Web.ViewModels.Team
 {
@@ -15,6 +16,6 @@ namespace WorldRallyChampionship.Web.ViewModels.Team
 		public string Manufacturer { get; set; } = null!;
 
 		public string? LogoUrl { get; set; }
-		public IEnumerable<string> DriverNames { get; set; } = new List<string>();
+		public IEnumerable<DriverViewModel> Drivers { get; set; } = Enumerable.Empty<DriverViewModel>();
 	}
 }

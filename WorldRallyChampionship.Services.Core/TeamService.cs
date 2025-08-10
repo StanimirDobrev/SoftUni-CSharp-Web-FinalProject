@@ -2,6 +2,7 @@
 using WorldRallyChampionship.Data;
 using WorldRallyChampionship.Services.Core.Contracts;
 using WorldRallyChampionship.Web.ViewModels;
+using WorldRallyChampionship.Web.ViewModels.Driver;
 using WorldRallyChampionship.Web.ViewModels.Team;
 
 namespace WorldRallyChampionship.Services.Core
@@ -31,6 +32,7 @@ namespace WorldRallyChampionship.Services.Core
 		public async Task<TeamDetailsViewModel?> GetByIdAsync(int id)
 		{
 			return await context.Teams
+				.Include(t => t.Drivers)
 				.Where(t => t.Id == id)
 				.Select(t => new TeamDetailsViewModel
 				{
@@ -38,8 +40,17 @@ namespace WorldRallyChampionship.Services.Core
 					Name = t.Name,
 					Manufacturer = t.Manufacturer,
 					LogoUrl = t.LogoUrl,
-					DriverNames = t.Drivers
-						.Select(d => d.FirstName + " " + d.LastName)
+
+					Drivers = t.Drivers
+						.OrderBy(d => d.LastName)
+						.Select(d => new DriverViewModel
+						{
+							Id = d.Id,
+							FullName = d.FirstName + " " + d.LastName,
+							Nationality = d.Nationality,
+							TeamName = t.Name,
+							ImageUrl = string.IsNullOrWhiteSpace(d.ImageUrl) ? "/img/placeholder.jpg" : d.ImageUrl
+						})
 						.ToList()
 				})
 				.FirstOrDefaultAsync();
@@ -54,6 +65,32 @@ namespace WorldRallyChampionship.Services.Core
 					Name = t.Name
 				})
 				.ToListAsync();
+		}
+
+		public async Task<TeamDetailsViewModel?> GetDetailsAsync(int id)
+		{
+			return await context.Teams
+				.Include(t => t.Drivers)
+				.Where(t => t.Id == id)
+				.Select(t => new TeamDetailsViewModel
+				{
+					Id = t.Id,
+					Name = t.Name,
+					Manufacturer = t.Manufacturer,
+					LogoUrl = string.IsNullOrWhiteSpace(t.LogoUrl) ? "/img/placeholder.jpg" : t.LogoUrl,
+					Drivers = t.Drivers
+						.OrderBy(d => d.LastName)
+						.Select(d => new DriverViewModel
+						{
+							Id = d.Id,
+							FullName = d.FirstName + " " + d.LastName,
+							Nationality = d.Nationality,
+							TeamName = t.Name,
+							ImageUrl = string.IsNullOrWhiteSpace(d.ImageUrl) ? "/img/placeholder.jpg" : d.ImageUrl
+						})
+						.ToList()
+				})
+				.FirstOrDefaultAsync();
 		}
 	}
 }

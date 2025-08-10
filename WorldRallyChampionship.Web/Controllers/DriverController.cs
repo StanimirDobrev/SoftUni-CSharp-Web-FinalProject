@@ -60,10 +60,10 @@ namespace WorldRallyChampionship.Web.Controllers
 				LastName = driver.LastName,
 				Nationality = driver.Nationality,
 				DateOfBirth = driver.DateOfBirth,
-				// TODO: трябва ти TeamId – можеш да разшириш Details VM да връща и TeamId
+				
 			};
 
-			await PopulateTeams(/*selectedId: model.TeamId*/);
+			await PopulateTeams();
 			return View(model);
 		}
 
@@ -73,7 +73,7 @@ namespace WorldRallyChampionship.Web.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				await PopulateTeams(/*selectedId: model.TeamId*/);
+				await PopulateTeams();
 				return View(model);
 			}
 

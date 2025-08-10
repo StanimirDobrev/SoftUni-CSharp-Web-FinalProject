@@ -1,0 +1,17 @@
+﻿@model WorldRallyChampionship.Web.ViewModels.Driver.DriverDetailsViewModel
+@{
+	ViewData["Title"] = Model.FullName;
+	string Img(string u) => Url.Content("~" + (u.StartsWith("/") ? u : "/" + u));
+}
+<div class="row">
+	<div class="col-md-4">
+		<img src="@Img(Model.ImageUrl)" alt="@Model.FullName" class="img-fluid rounded shadow" />
+	</div>
+	<div class="col-md-8">
+		<h2>@Model.FullName</h2>
+		<p><strong>Nationality:</strong> @Model.Nationality</p>
+		<p><strong>Date of birth:</strong> @Model.DateOfBirth.ToString("dd MMM yyyy")</p>
+		<p><strong>Team:</strong> @Model.TeamName</p>
+		<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+	</div>
+</div>

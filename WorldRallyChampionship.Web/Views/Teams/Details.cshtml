@@ -1,0 +1,32 @@
+﻿@model WorldRallyChampionship.Web.ViewModels.Team.TeamDetailsViewModel
+@{
+	ViewData["Title"] = Model.Name;
+	string Img(string u) => Url.Content("~" + (u.StartsWith("/") ? u : "/" + u));
+}
+<div class="row mb-4">
+	<div class="col-md-3 text-center">
+		<img src="@Img(Model.LogoUrl)" alt="@Model.Name" class="img-fluid" style="max-height:160px;object-fit:contain;" />
+	</div>
+	<div class="col-md-9">
+		<h2 class="mb-1">@Model.Name</h2>
+		<p class="text-muted">@Model.Manufacturer</p>
+		<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+	</div>
+</div>
+
+<h4 class="mb-3">Drivers</h4>
+<div class="row row-cols-1 row-cols-md-3 g-3">
+	@foreach (var d in Model.Drivers)
+	{
+		<div class="col">
+			<div class="card h-100 shadow-sm">
+				<img src="@Img(d.ImageUrl)" alt="@d.FullName" class="card-img-top" style="height:200px;object-fit:cover;" />
+				<div class="card-body">
+					<h6 class="card-title mb-1">@d.FullName</h6>
+					<div class="text-muted small">@d.Nationality</div>
+					<a asp-controller="Drivers" asp-action="Details" asp-route-id="@d.Id" class="btn btn-primary btn-sm mt-2">Details</a>
+				</div>
+			</div>
+		</div>
+	}
+</div>
