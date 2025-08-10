@@ -18,7 +18,7 @@ namespace WorldRallyChampionship.Web.Controllers
 
 		public IActionResult Index()
 		{
-			return View();
+			return RedirectToAction("Index", "RallyEvents");
 		}
 
 		public IActionResult Privacy()

@@ -130,15 +130,15 @@ namespace WorldRallyChampionship.Data.Migrations
                         {
                             Id = "7699db7d-964f-4782-8209-d76562e0fece",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "de67f6f5-5020-4fe7-8251-b4c7d8aed525",
+                            ConcurrencyStamp = "f4fb734c-3eaf-4bc5-a183-dd14573b7961",
                             Email = "admin@horizons.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@HORIZONS.COM",
                             NormalizedUserName = "ADMIN@HORIZONS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPJVHtElkNffGjaUzypESBFBYdiWwAvZyUC6DMxsu3LG+6meTZ8MgdpAfedmPp+KXQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH0RF2GjBRkufVuMi10RkMZS3TJ1oe2YQ3/s/rEf0J9x/+P/71qNZCMdUk9tgFNKLQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e606382c-3d84-4622-8196-e2062677ff29",
+                            SecurityStamp = "840138d7-cb0a-4cec-a520-780445cb6997",
                             TwoFactorEnabled = false,
                             UserName = "admin@horizons.com"
                         });
@@ -375,7 +375,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 1,
                             DateOfBirth = new DateTime(2000, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Kalle",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/kalle-rovanpera.png",
+                            ImageUrl = "/img/drivers/kalle-rovampera.jpg",
                             LastName = "Rovanperä",
                             Nationality = "Finland",
                             TeamId = 1
@@ -385,7 +385,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 2,
                             DateOfBirth = new DateTime(1988, 12, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Elfyn",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/elfyn-evans.png",
+                            ImageUrl = "/img/drivers/elfyn-evans.jpg",
                             LastName = "Evans",
                             Nationality = "Wales",
                             TeamId = 1
@@ -395,7 +395,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 3,
                             DateOfBirth = new DateTime(1988, 6, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Thierry",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/thierry-neuville.png",
+                            ImageUrl = "/img/drivers/thierry-neuville.jpg",
                             LastName = "Neuville",
                             Nationality = "Belgium",
                             TeamId = 2
@@ -405,7 +405,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 4,
                             DateOfBirth = new DateTime(1987, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Ott",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/ott-tanak.png",
+                            ImageUrl = "/img/drivers/ott-tanak.jpg",
                             LastName = "Tänak",
                             Nationality = "Estonia",
                             TeamId = 2
@@ -415,7 +415,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 5,
                             DateOfBirth = new DateTime(1995, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Adrien",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/adrien-fourmaux.png",
+                            ImageUrl = "/img/drivers/adrien-fourmaux.jpg",
                             LastName = "Fourmaux",
                             Nationality = "France",
                             TeamId = 3
@@ -425,7 +425,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Id = 6,
                             DateOfBirth = new DateTime(1998, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FirstName = "Grégoire",
-                            ImageUrl = "https://www.wrc.com/assets/img/drivers/gregoire-munster.png",
+                            ImageUrl = "/img/drivers/gregoire-munster.jpg",
                             LastName = "Munster",
                             Nationality = "Luxembourg",
                             TeamId = 3
@@ -479,7 +479,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Country = "Monaco / France",
                             Description = "Legendary winter tarmac rally.",
                             EndDate = new DateTime(2025, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "https://www.wrc.com/assets/img/events/montecarlo.jpg",
+                            ImageUrl = "/img/rallies/rallye-monte-carlo-2025.jpg",
                             Name = "Rallye Monte-Carlo",
                             StartDate = new DateTime(2025, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Surface = "Tarmac"
@@ -490,7 +490,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Country = "Sweden",
                             Description = "Fast snow stages with snowbanks.",
                             EndDate = new DateTime(2025, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "https://www.wrc.com/assets/img/events/sweden.jpg",
+                            ImageUrl = "/img/rallies/wrc-rally-sweden-2025.jpg",
                             Name = "Rally Sweden",
                             StartDate = new DateTime(2025, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Surface = "Snow"
@@ -501,7 +501,7 @@ namespace WorldRallyChampionship.Data.Migrations
                             Country = "Croatia",
                             Description = "Technical tarmac with tricky cuts.",
                             EndDate = new DateTime(2025, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "https://www.wrc.com/assets/img/events/croatia.jpg",
+                            ImageUrl = "/img/rallies/croatia-rally-2025.jpg",
                             Name = "Croatia Rally",
                             StartDate = new DateTime(2025, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Surface = "Tarmac"
@@ -569,21 +569,21 @@ namespace WorldRallyChampionship.Data.Migrations
                         new
                         {
                             Id = 1,
-                            LogoUrl = "https://www.wrc.com/assets/img/teams/toyota-logo.png",
+                            LogoUrl = "/img/teams/toyota.jpg",
                             Manufacturer = "Toyota",
                             Name = "Toyota Gazoo Racing"
                         },
                         new
                         {
                             Id = 2,
-                            LogoUrl = "https://www.wrc.com/assets/img/teams/hyundai-logo.png",
+                            LogoUrl = "/img/teams/hyundai.jpg",
                             Manufacturer = "Hyundai",
                             Name = "Hyundai Shell Mobis"
                         },
                         new
                         {
                             Id = 3,
-                            LogoUrl = "https://www.wrc.com/assets/img/teams/ford-logo.png",
+                            LogoUrl = "/img/teams/m-sport ford.jpg",
                             Manufacturer = "Ford",
                             Name = "M-Sport Ford"
                         });

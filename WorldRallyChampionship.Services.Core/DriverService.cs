@@ -24,7 +24,10 @@ namespace WorldRallyChampionship.Services.Core
 					Id = d.Id,
 					FullName = d.FirstName + " " + d.LastName,
 					Nationality = d.Nationality,
-					TeamName = d.Team.Name
+					TeamName = d.Team.Name,
+					ImageUrl = string.IsNullOrWhiteSpace(d.ImageUrl)
+						? "/img/placeholder.jpg"
+						: d.ImageUrl.Replace("\\", "/")
 				})
 				.ToListAsync();
 		}

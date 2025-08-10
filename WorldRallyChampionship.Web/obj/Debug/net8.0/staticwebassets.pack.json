@@ -13,6 +13,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\adrien-fourmaux.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\adrien-fourmaux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\elfyn-evans.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\elfyn-evans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\gregoire-munster.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\gregoire-munster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\kalle-rovampera.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\kalle-rovampera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\ott-tanak.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\ott-tanak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\thierry-neuville.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\thierry-neuville.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\croatia-rally-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\croatia-rally-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\rallye-monte-carlo-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\rallye-monte-carlo-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\wrc-rally-sweden-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\wrc-rally-sweden-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\hyundai.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\hyundai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\m-sport ford.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\m-sport ford.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\toyota.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\toyota.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
