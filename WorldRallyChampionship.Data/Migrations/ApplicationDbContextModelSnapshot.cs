@@ -130,15 +130,15 @@ namespace WorldRallyChampionship.Data.Migrations
                         {
                             Id = "7699db7d-964f-4782-8209-d76562e0fece",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f4fb734c-3eaf-4bc5-a183-dd14573b7961",
+                            ConcurrencyStamp = "f4390e75-19a2-40dc-892c-aaf9a6767f57",
                             Email = "admin@horizons.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@HORIZONS.COM",
                             NormalizedUserName = "ADMIN@HORIZONS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH0RF2GjBRkufVuMi10RkMZS3TJ1oe2YQ3/s/rEf0J9x/+P/71qNZCMdUk9tgFNKLQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOjw0JIitlquqTJy/+yZPQxRsK6qvAFU7aSA0EDy8G78oBTMRRJ2BNXcee4mvxQ2UA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "840138d7-cb0a-4cec-a520-780445cb6997",
+                            SecurityStamp = "08c5ee2a-d0cb-4c86-8b8f-9bd6c78a5294",
                             TwoFactorEnabled = false,
                             UserName = "admin@horizons.com"
                         });
@@ -429,6 +429,76 @@ namespace WorldRallyChampionship.Data.Migrations
                             LastName = "Munster",
                             Nationality = "Luxembourg",
                             TeamId = 3
+                        });
+                });
+
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.News", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Author")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
+
+                    b.Property<bool>("IsFeatured")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("PublishedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SourceUrl")
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
+
+                    b.Property<string>("Summary")
+                        .IsRequired()
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("News");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "WRC Editorial",
+                            Content = "Full article content here...",
+                            ImageUrl = "/img/news/monte.jpg",
+                            IsFeatured = true,
+                            PublishedOn = new DateTime(2025, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SourceUrl = "https://example.com/monte",
+                            Summary = "Iconic season opener returns with night stages and tight mountain passes.",
+                            Title = "Rallye Monte-Carlo: Opening Round Confirmed"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Author = "Press",
+                            Content = "Full article content here...",
+                            ImageUrl = "/img/news/fight.jpg",
+                            IsFeatured = true,
+                            PublishedOn = new DateTime(2025, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Summary = "Point gap narrows after dramatic Power Stage.",
+                            Title = "Evans vs Neuville: Early Title Fight"
                         });
                 });
 

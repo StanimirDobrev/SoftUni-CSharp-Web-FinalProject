@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.News.NewsListItemViewModel>
+@{
+	ViewData["Title"] = "News";
+	string Img(string? u) => Url.Content("~" + ((u ?? "/img/placeholder.jpg").StartsWith("/") ? (u ?? "/img/placeholder.jpg") : "/" + u));
+}
+<h2 class="mb-3">Latest News</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+	@foreach (var n in Model)
+	{
+		<div class="col">
+			<div class="card h-100 shadow-sm">
+				<img class="card-img-top" src="@Img(n.ImageUrl)" alt="@n.Title" style="height:180px;object-fit:cover;" />
+				<div class="card-body">
+					<h6 class="card-title">@n.Title</h6>
+					<p class="card-text text-muted small mb-2">@n.PublishedOn.ToString("dd MMM yyyy")</p>
+					<p class="card-text">@n.Summary</p>
+					<a asp-action="Details" asp-route-id="@n.Id" class="btn btn-primary btn-sm">Read more</a>
+				</div>
+			</div>
+		</div>
+	}
+</div>

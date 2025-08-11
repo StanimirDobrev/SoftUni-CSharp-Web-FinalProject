@@ -17,6 +17,7 @@ namespace WorldRallyChampionship.Data
 		public virtual DbSet<Team> Teams { get; set; } = null!;
 		public virtual DbSet<Result> Results { get; set; } = null!;
 		public virtual DbSet<Comment> Comments { get; set; } = null!;
+		public virtual DbSet<News> News { get; set; } = null!;
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{
@@ -101,7 +102,34 @@ namespace WorldRallyChampionship.Data
 					Description = "Technical tarmac with tricky cuts.",
 					ImageUrl = "/img/rallies/croatia-rally-2025.jpg"
 				});
-			
+
+			//News
+
+			builder.Entity<News>().HasData(
+				new News
+				{
+					Id = 1,
+					Title = "Rallye Monte-Carlo: Opening Round Confirmed",
+					Summary = "Iconic season opener returns with night stages and tight mountain passes.",
+					Content = "Full article content here...",
+					ImageUrl = "/img/news/monte.jpg",
+					SourceUrl = "https://example.com/monte",
+					Author = "WRC Editorial",
+					PublishedOn = new DateTime(2025, 1, 10),
+					IsFeatured = true
+				},
+				new News
+				{
+					Id = 2,
+					Title = "Evans vs Neuville: Early Title Fight",
+					Summary = "Point gap narrows after dramatic Power Stage.",
+					Content = "Full article content here...",
+					ImageUrl = "/img/news/fight.jpg",
+					Author = "Press",
+					PublishedOn = new DateTime(2025, 2, 2),
+					IsFeatured = true
+				}
+				);
 		}
 	}
 }

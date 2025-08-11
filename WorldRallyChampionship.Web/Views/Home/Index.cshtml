@@ -1,8 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.News.NewsListItemViewModel>
+@{
+	ViewData["Title"] = "Latest News";
+	string Img(string? u)
+	{
+		var p = string.IsNullOrWhiteSpace(u) ? "/img/placeholder.jpg" : u!;
+		return Url.Content("~" + (p.StartsWith("/") ? p : "/" + p));
+	}
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2 class="mb-3">Latest News</h2>
+
+@if (Model?.Any() != true)
+{
+	<div class="alert alert-info">No news yet.</div>
+}
+else
+{
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		@foreach (var n in Model)
+		{
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					<img src="@Img(n.ImageUrl)" alt="@n.Title"
+						 class="card-img-top" style="height:200px;object-fit:cover;" />
+					<div class="card-body">
+						<h6 class="card-title">@n.Title</h6>
+						<div class="text-muted small mb-2">
+							@n.PublishedOn.ToString("dd MMM yyyy")
+						</div>
+						<p class="card-text">@n.Summary</p>
+						<a asp-controller="News" asp-action="Details" asp-route-id="@n.Id"
+						   class="btn btn-primary btn-sm">Read more</a>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+	<div class="mt-3">
+		<a asp-controller="News" asp-action="Index" class="btn btn-outline-secondary btn-sm">
+			View all news
+		</a>
+	</div>
+}

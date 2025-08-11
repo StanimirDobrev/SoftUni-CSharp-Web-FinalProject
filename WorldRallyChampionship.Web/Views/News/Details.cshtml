@@ -1,0 +1,24 @@
+﻿@model WorldRallyChampionship.Web.ViewModels.News.NewsDetailsViewModel
+@{
+	ViewData["Title"] = Model.Title;
+	string Img(string? u) => Url.Content("~" + ((u ?? "/img/placeholder.jpg").StartsWith("/") ? (u ?? "/img/placeholder.jpg") : "/" + u));
+}
+<article class="mb-4">
+	<h2 class="mb-2">@Model.Title</h2>
+	<div class="text-muted mb-3">
+		@Model.PublishedOn.ToString("dd MMM yyyy")
+		@if (!string.IsNullOrWhiteSpace(Model.Author))
+		{
+			<span> • @Model.Author</span>
+		}
+	</div>
+	<img src="@Img(Model.ImageUrl)" alt="@Model.Title" class="img-fluid rounded shadow mb-3" />
+	<div class="lead">@Html.Raw(Model.Content)</div>
+	@if (!string.IsNullOrWhiteSpace(Model.SourceUrl))
+	{
+		<p class="mt-3">
+			<a href="@Model.SourceUrl" target="_blank" rel="noopener" class="link-secondary">Source</a>
+		</p>
+	}
+	<a asp-action="Index" class="btn btn-secondary btn-sm mt-2">Back to news</a>
+</article>

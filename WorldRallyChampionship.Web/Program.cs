@@ -33,6 +33,7 @@ namespace WorldRallyChampionship.Web
 			builder.Services.AddScoped<IDriverService, DriverService>();
 			builder.Services.AddScoped<ITeamService, TeamService>();
 			builder.Services.AddScoped<IRallyEventService, RallyEventService>();
+			builder.Services.AddScoped<INewsService, NewsService>();
 
 
 			var app = builder.Build();

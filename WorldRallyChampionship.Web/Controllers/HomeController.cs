@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using WorldRallyChampionship.Services.Core.Contracts;
 using WorldRallyChampionship.Web.Controllers;
 using WorldRallyChampionship.Web.ViewModels;
 
@@ -9,27 +10,17 @@ namespace WorldRallyChampionship.Web.Controllers
 
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
+		private readonly INewsService news;
 
-		public HomeController(ILogger<HomeController> logger)
+		public HomeController(INewsService news)
+			=> this.news = news;
+
+		public async Task<IActionResult> Index()
 		{
-			_logger = logger;
+			var latest = await news.GetLatestAsync(3); 
+			return View(latest); 
 		}
 
-		public IActionResult Index()
-		{
-			return RedirectToAction("Index", "RallyEvents");
-		}
-
-		public IActionResult Privacy()
-		{
-			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-		}
+		public IActionResult Privacy() => View();
 	}
 }

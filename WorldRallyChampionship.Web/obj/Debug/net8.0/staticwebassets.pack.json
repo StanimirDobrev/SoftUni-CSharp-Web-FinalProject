@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\img\\drivers\\thierry-neuville.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\fight.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\fight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\monte.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\monte.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\croatia-rally-2025.jpg",
       "PackagePath": "staticwebassets\\img\\rallies\\croatia-rally-2025.jpg"
     },

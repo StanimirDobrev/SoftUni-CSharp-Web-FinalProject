@@ -35,5 +35,19 @@ namespace WorldRallyChampionship.GCommon
 			public const int ManufacturerMaxLength = 100;
 			public const int ManufacturerMinLength = 5;
 		}
+		public class News
+		{
+			public const int NewsTitleMaxLength = 200;
+			public const int NewsTitleMinLength = 5;
+
+			public const int NewsSummaryMaxLength = 400;
+			public const int NewsSummaryMinLength = 10;
+
+			public const int ImageUrlMaxLength = 400;
+			public const int SourceUrlMaxLength = 400;
+
+			public const int AuthorMaxLength = 100;
+			public const int AuthorMinLength = 2;
+		}
 	}
 }
