@@ -3,11 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{598C05E8-FFEE-49F1-9FE7-5FADE307785B}|..\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web.viewmodels\\driver\\driverdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD759736-025F-4F44-BEF5-D31996E4D75F}|..\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.gcommon\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD759736-025F-4F44-BEF5-D31996E4D75F}|..\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.gcommon\\worldrallychampionship.gcommon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD7BEDA-2269-4E7D-A364-080CDD6E8FCC}|..\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.data.models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD7BEDA-2269-4E7D-A364-080CDD6E8FCC}|..\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.data.models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD7BEDA-2269-4E7D-A364-080CDD6E8FCC}|..\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.data.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\driver\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\driver\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\driver\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\driver\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\driver\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\driver\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\rallyevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\rallyevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598C05E8-FFEE-49F1-9FE7-5FADE307785B}|..\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web.viewmodels\\driver\\driverdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\teams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,18 +48,8 @@
       "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEF225F-4743-4F6E-8502-05BCA1ED16D5}|..\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.services.core\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598C05E8-FFEE-49F1-9FE7-5FADE307785B}|..\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web.viewmodels\\team\\teamdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEF225F-4743-4F6E-8502-05BCA1ED16D5}|..\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.services.core\\contracts\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -65,24 +82,8 @@
       "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\views\\rallyevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|solutionrelative:views\\rallyevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DF46C3-ACD5-4B0B-B8B1-7DDE474A88AE}|WorldRallyChampionship.Web.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,9 +91,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{598C05E8-FFEE-49F1-9FE7-5FADE307785B}|..\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.web.viewmodels\\rallyevent\\rallyeventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A38D80F-4790-445E-97B3-0A6EFC94B110}|..\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj|c:\\users\\pc\\documents\\github\\softuni-csharp-web-finalproject\\worldrallychampionship.data\\migrations\\20250810134619_updateworkingimageurlmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,97 +100,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Teams\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Teams\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Teams\\Details.cshtml",
-              "RelativeToolTip": "Views\\Teams\\Details.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T19:35:17.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Driver\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Details.cshtml",
-              "RelativeToolTip": "Views\\Driver\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T19:28:47.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TeamsController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Controllers\\TeamsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TeamsController.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Controllers\\TeamsController.cs",
-              "RelativeToolTip": "Controllers\\TeamsController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T19:28:09.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TeamService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\TeamService.cs",
-              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Services.Core\\TeamService.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\TeamService.cs",
-              "RelativeToolTip": "..\\WorldRallyChampionship.Services.Core\\TeamService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAowF0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T19:07:20.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ITeamService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
-              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
-              "RelativeToolTip": "..\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
+              "Title": "WorldRallyChampionship.GCommon",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
+              "RelativeToolTip": "..\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T19:07:16.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TeamDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Team\\TeamDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Web.ViewModels\\Team\\TeamDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Team\\TeamDetailsViewModel.cs",
-              "RelativeToolTip": "..\\WorldRallyChampionship.Web.ViewModels\\Team\\TeamDetailsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T19:05:22.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DriverDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
-              "RelativeToolTip": "..\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T18:50:17.233Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T17:01:10.883Z",
               "EditorCaption": ""
             },
             {
@@ -201,7 +121,134 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationConstants.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\ValidationConstants.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.GCommon\\ValidationConstants.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\ValidationConstants.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.GCommon\\ValidationConstants.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:02:14.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Data.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.Data.Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:00:32.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\Comment.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Data.Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\Comment.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.Data.Models\\Comment.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:00:25.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\Driver.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Data.Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\Driver.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.Data.Models\\Driver.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:00:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Driver\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Driver\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T16:51:17.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Driver\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Details.cshtml",
+              "RelativeToolTip": "Views\\Driver\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T16:51:13.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Driver\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Driver\\Create.cshtml",
+              "RelativeToolTip": "Views\\Driver\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T16:51:10.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Teams\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Teams\\Details.cshtml",
+              "RelativeToolTip": "Views\\Teams\\Details.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-10T19:35:17.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.Services.Core\\Contracts\\ITeamService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:07:16.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DriverDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
+              "RelativeToolTip": "..\\WorldRallyChampionship.Web.ViewModels\\Driver\\DriverDetailsViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:50:17.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DriverController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Controllers\\DriverController.cs",
               "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
@@ -209,12 +256,11 @@
               "RelativeToolTip": "Controllers\\DriverController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwEsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T14:19:58.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T14:19:58.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DriverService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\DriverService.cs",
               "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Services.Core\\DriverService.cs",
@@ -222,24 +268,11 @@
               "RelativeToolTip": "..\\WorldRallyChampionship.Services.Core\\DriverService.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAlwC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:53:40.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T13:53:40.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250810134619_UpdateWorkingImageUrlMigration.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\Migrations\\20250810134619_UpdateWorkingImageUrlMigration.cs",
-              "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Data\\Migrations\\20250810134619_UpdateWorkingImageUrlMigration.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\Migrations\\20250810134619_UpdateWorkingImageUrlMigration.cs",
-              "RelativeToolTip": "..\\WorldRallyChampionship.Data\\Migrations\\20250810134619_UpdateWorkingImageUrlMigration.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:46:19.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Data\\ApplicationDbContext.cs",
@@ -251,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -263,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -275,19 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAADgv5sAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T11:55:50.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -295,12 +316,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBsAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T11:29:02.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T11:29:02.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -312,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -320,12 +340,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T11:24:35.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T11:24:35.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -338,18 +357,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T11:24:02.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -361,31 +368,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-10T11:23:45.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\RallyEvents\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\RallyEvents\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Views\\RallyEvents\\Index.cshtml",
               "RelativeToolTip": "Views\\RallyEvents\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAABYAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-09T16:00:13.68Z"
+              "WhenOpened": "2025-08-09T16:00:13.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -397,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RallyEventViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\RallyEvent\\RallyEventViewModel.cs",
               "RelativeDocumentMoniker": "..\\WorldRallyChampionship.Web.ViewModels\\RallyEvent\\RallyEventViewModel.cs",
@@ -409,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

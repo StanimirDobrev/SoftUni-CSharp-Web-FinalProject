@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static WorldRallyChampionship.GCommon.ValidationConstants.Comment;
 
 namespace WorldRallyChampionship.Data.Models
 {
@@ -12,7 +13,7 @@ namespace WorldRallyChampionship.Data.Models
 		public int Id { get; set; }
 
 		[Required]
-		[StringLength(1000)]
+		[StringLength(ContentMaxLength), MinLength(ContentMinLength)]
 		public string Content { get; set; } = null!;
 
 		public DateTime CreatedOn { get; set; } = DateTime.UtcNow;
