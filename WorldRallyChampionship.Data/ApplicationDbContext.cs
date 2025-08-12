@@ -26,7 +26,7 @@ namespace WorldRallyChampionship.Data
 
 			builder.Entity<Crew>()
 				.HasOne(c => c.Driver)
-				.WithMany() 
+				.WithMany()		
 				.HasForeignKey(c => c.DriverId)
 				.OnDelete(DeleteBehavior.Restrict);
 
