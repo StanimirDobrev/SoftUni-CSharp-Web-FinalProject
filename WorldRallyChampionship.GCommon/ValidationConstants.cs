@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -49,5 +50,13 @@ namespace WorldRallyChampionship.GCommon
 			public const int AuthorMaxLength = 100;
 			public const int AuthorMinLength = 2;
 		}
-	}
+
+        public class Crew
+        {
+            public const int CarModelMaxLength = 100;
+			public const int CarModelMinLength = 2;
+
+			public const int CarImageUrlMaxLength = 400;
+		}
+    }
 }

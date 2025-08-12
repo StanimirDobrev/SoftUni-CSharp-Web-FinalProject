@@ -18,10 +18,23 @@ namespace WorldRallyChampionship.Data
 		public virtual DbSet<Result> Results { get; set; } = null!;
 		public virtual DbSet<Comment> Comments { get; set; } = null!;
 		public virtual DbSet<News> News { get; set; } = null!;
+		public virtual DbSet<Crew> Crews { get; set; } = null!;
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{
 			base.OnModelCreating(builder);
+
+			builder.Entity<Crew>()
+				.HasOne(c => c.Driver)
+				.WithMany() 
+				.HasForeignKey(c => c.DriverId)
+				.OnDelete(DeleteBehavior.Restrict);
+
+			builder.Entity<Crew>()
+				.HasOne(c => c.CoDriver)
+				.WithMany()
+				.HasForeignKey(c => c.CoDriverId)
+				.OnDelete(DeleteBehavior.Restrict);
 
 
 			builder.Entity<Comment>()

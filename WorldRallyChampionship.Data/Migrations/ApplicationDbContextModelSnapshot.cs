@@ -130,15 +130,15 @@ namespace WorldRallyChampionship.Data.Migrations
                         {
                             Id = "7699db7d-964f-4782-8209-d76562e0fece",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f4390e75-19a2-40dc-892c-aaf9a6767f57",
+                            ConcurrencyStamp = "4c2b14b4-c327-47a6-ac5d-5d971749108d",
                             Email = "admin@horizons.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@HORIZONS.COM",
                             NormalizedUserName = "ADMIN@HORIZONS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOjw0JIitlquqTJy/+yZPQxRsK6qvAFU7aSA0EDy8G78oBTMRRJ2BNXcee4mvxQ2UA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBSbJRY6wBanQwxy25V+F5dqhZsLLuXnm8nZ8fT+KTIWZTQbrPNzHjourKp2+kZ5tA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "08c5ee2a-d0cb-4c86-8b8f-9bd6c78a5294",
+                            SecurityStamp = "c58859e1-3233-4647-b87a-436d0cf2283a",
                             TwoFactorEnabled = false,
                             UserName = "admin@horizons.com"
                         });
@@ -329,6 +329,46 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.Crew", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CarImageUrl")
+                        .HasMaxLength(400)
+                        .HasColumnType("nvarchar(400)");
+
+                    b.Property<string>("CarModel")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int?>("CarNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CoDriverId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DriverId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CoDriverId");
+
+                    b.HasIndex("DriverId");
+
+                    b.HasIndex("TeamId");
+
+                    b.ToTable("Crews");
                 });
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Driver", b =>
@@ -733,6 +773,33 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.Navigation("RallyEvent");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.Crew", b =>
+                {
+                    b.HasOne("WorldRallyChampionship.Data.Models.Driver", "CoDriver")
+                        .WithMany()
+                        .HasForeignKey("CoDriverId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WorldRallyChampionship.Data.Models.Driver", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WorldRallyChampionship.Data.Models.Team", "Team")
+                        .WithMany()
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CoDriver");
+
+                    b.Navigation("Driver");
+
+                    b.Navigation("Team");
                 });
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Driver", b =>
