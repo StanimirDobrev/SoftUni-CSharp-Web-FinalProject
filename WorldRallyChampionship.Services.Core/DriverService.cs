@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using WorldRallyChampionship.Data;
 using WorldRallyChampionship.Data.Models;
 using WorldRallyChampionship.Services.Core.Contracts;
+using WorldRallyChampionship.Web.ViewModels.Common;
 using WorldRallyChampionship.Web.ViewModels.Driver;
 
 namespace WorldRallyChampionship.Services.Core
@@ -97,5 +99,15 @@ namespace WorldRallyChampionship.Services.Core
 			await context.SaveChangesAsync();
 			return true;
 		}
+
+		public async Task<IEnumerable<OptionViewModel>> GetAllOptionsAsync()
+	=> await context.Drivers
+		.OrderBy(d => d.LastName).ThenBy(d => d.FirstName)
+		.Select(d => new OptionViewModel
+		{
+			Id = d.Id,
+			Name = d.FirstName + " " + d.LastName
+		})
+		.ToListAsync();
 	}
 }

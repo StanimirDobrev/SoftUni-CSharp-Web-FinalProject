@@ -18,5 +18,8 @@ namespace WorldRallyChampionship.Web.ViewModels.Driver
 
 		[Required]
 		public int TeamId { get; set; }
+
+		[Required]
+		public string ImageUrl { get; set; } = null!;
 	}
 }

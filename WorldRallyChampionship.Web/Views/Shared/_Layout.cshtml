@@ -21,9 +21,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Rally Events</a>
-                        </li>
+						<li class="nav-item">
+							<a class="nav-link" asp-controller="Crews" asp-action="Index">Teams & Drivers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" asp-area="" asp-controller="RallyEvents" asp-action="Index">Rally Calendar</a>
+						</li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Driver" asp-action="Index">Drivers</a>
                         </li>

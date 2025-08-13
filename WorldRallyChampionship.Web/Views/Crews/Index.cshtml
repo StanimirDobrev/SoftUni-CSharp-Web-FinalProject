@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Crew.CrewViewModel>
+
+@{
+	ViewData["Title"] = "Teams & Drivers";
+	bool isAdmin = User.IsInRole("Administrator");
+}
+
+<h2 class="mb-3">Teams & Drivers</h2>
+
+@if (Model == null || !Model.Any())
+{
+	<div class="alert alert-info">
+		No crews yet.
+		@if (isAdmin)
+		{
+	<a asp-action="Create" class="alert-link">Създай първия</a>
+.
+	}
+	</div>
+}
+else
+{
+	@if (isAdmin)
+	{
+		<a asp-action="Create" class="btn btn-primary btn-sm mb-3">Create Crew</a>
+	}
+
+	<div class="row row-cols-1 row-cols-md-3 g-3">
+		@foreach (var c in Model)
+		{
+			var rawImg = !string.IsNullOrWhiteSpace(c.CarImageUrl)
+			? c.CarImageUrl
+			: (!string.IsNullOrWhiteSpace(c.DriverImageUrl) ? c.DriverImageUrl : "/img/placeholder.jpg");
+
+			var img = "~" + (rawImg.StartsWith("/") ? rawImg : ("/" + rawImg));
+
+			<div class="col">
+				<div class="card h-100 shadow-sm">
+					<img src="@Url.Content(img)"
+						 class="card-img-top"
+						 style="height:200px;object-fit:cover;"
+						 alt="@c.TeamName" />
+					<div class="card-body">
+						<h5 class="card-title mb-1">@c.DriverName &amp; @c.CoDriverName</h5>
+						<div class="text-muted small mb-2">@c.TeamName</div>
+
+						@if (!string.IsNullOrWhiteSpace(c.CarModel))
+						{
+							<div class="small">
+								Car: @c.CarModel
+								@if (c.CarNumber.HasValue)
+								{
+									<span>• #@c.CarNumber</span>
+								}
+							</div>
+						}
+
+						<a asp-action="Details" asp-route-id="@c.Id" class="btn btn-outline-primary btn-sm mt-2">
+							Details
+						</a>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+}

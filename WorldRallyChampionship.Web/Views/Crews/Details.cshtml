@@ -1,0 +1,26 @@
+﻿@model WorldRallyChampionship.Web.ViewModels.Crew.CrewViewModel
+@{
+	ViewData["Title"] = $"{Model.DriverName} & {Model.CoDriverName}";
+	string Img(string? u)
+	{
+		var p = string.IsNullOrWhiteSpace(u) ? "/img/placeholder.jpg" : u!;
+		return Url.Content("~" + (p.StartsWith("/") ? p : "/" + p));
+	}
+}
+<div class="row mb-3">
+	<div class="col-md-5">
+		<img src="@Img(Model.CarImageUrl ?? Model.DriverImageUrl)" class="img-fluid rounded shadow" />
+	</div>
+	<div class="col-md-7">
+		<h3>@Model.DriverName &amp; @Model.CoDriverName</h3>
+		<p class="text-muted">@Model.TeamName</p>
+		@if (!string.IsNullOrWhiteSpace(Model.CarModel))
+		{
+			<p><strong>Car:</strong> @Model.CarModel @if (Model.CarNumber.HasValue)
+				{
+					<span>• #@Model.CarNumber</span>
+				}</p>
+		}
+		<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+	</div>
+</div>
