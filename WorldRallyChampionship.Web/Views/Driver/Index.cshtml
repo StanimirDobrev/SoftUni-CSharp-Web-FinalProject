@@ -1,24 +1,35 @@
 ﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Driver.DriverViewModel>
-
 @{
 	ViewData["Title"] = "Drivers";
+	var isAdmin = User.IsInRole("Administrator");
+}
+<h2 class="mb-3">WRC Drivers</h2>
+
+@if (isAdmin)
+{
+	<a asp-action="Create" class="btn btn-primary btn-sm mb-3">Create Driver</a>
 }
 
-<h2 class="mb-4 text-center">WRC Drivers</h2>
-
-<div class="row row-cols-1 row-cols-md-3 g-4">
-	@foreach (var driver in Model)
+<div class="row row-cols-1 row-cols-md-3 g-3">
+	@foreach (var d in Model)
 	{
 		<div class="col">
 			<div class="card h-100 shadow-sm">
-				<img src="@driver.ImageUrl" class="card-img-top" alt="@driver.FullName" style="object-fit: cover; height: 250px;">
+				@if (!string.IsNullOrWhiteSpace(d.ImageUrl))
+				{
+					<img src="~/@d.ImageUrl.TrimStart('/')" class="card-img-top" style="height:200px;object-fit:cover" alt="@d.FullName" />
+				}
 				<div class="card-body">
-					<h5 class="card-title">@driver.FullName</h5>
-					<p class="card-text">
-						<strong>Nationality:</strong> @driver.Nationality <br />
-						<strong>Team:</strong> @driver.TeamName
-					</p>
-					<a asp-action="Details" asp-route-id="@driver.Id" class="btn btn-primary btn-sm">View Details</a>
+					<h5 class="card-title mb-1">@d.FullName</h5>
+					<div class="text-muted small mb-2">@d.Nationality • @d.TeamName</div>
+					<a asp-action="Details" asp-route-id="@d.Id" class="btn btn-outline-primary btn-sm">Details</a>
+					@if (isAdmin)
+					{
+						<a asp-action="Edit" asp-route-id="@d.Id" class="btn btn-warning btn-sm ms-1">Edit</a>
+						<form asp-action="Delete" asp-route-id="@d.Id" method="post" class="d-inline">
+							<button class="btn btn-danger btn-sm ms-1" onclick="return confirm('Delete?')">Delete</button>
+						</form>
+					}
 				</div>
 			</div>
 		</div>

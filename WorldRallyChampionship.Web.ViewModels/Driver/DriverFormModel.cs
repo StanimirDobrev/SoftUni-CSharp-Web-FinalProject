@@ -4,7 +4,9 @@ namespace WorldRallyChampionship.Web.ViewModels.Driver
 {
 	public class DriverFormModel
 	{
-		[Required]
+        public int Id { get; set; }
+
+        [Required]
 		public string FirstName { get; set; } = null!;
 
 		[Required]
@@ -19,7 +21,6 @@ namespace WorldRallyChampionship.Web.ViewModels.Driver
 		[Required]
 		public int TeamId { get; set; }
 
-		[Required]
-		public string ImageUrl { get; set; } = null!;
+		public string? ImageUrl { get; set; } = null!;
 	}
 }

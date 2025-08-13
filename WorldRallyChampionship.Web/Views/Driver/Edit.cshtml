@@ -31,8 +31,9 @@
 	</div>
 
 	<div class="mb-3">
-		<label asp-for="TeamId">Team</label>
-		<select asp-for="TeamId" asp-items="ViewBag.Teams" class="form-select"></select>
+		<select asp-for="TeamId"
+				asp-items="@(ViewBag.Teams as IEnumerable<SelectListItem> ?? Enumerable.Empty<SelectListItem>())"
+				class="form-select"></select>
 		<span asp-validation-for="TeamId" class="text-danger"></span>
 	</div>
 

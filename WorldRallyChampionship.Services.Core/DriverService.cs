@@ -101,7 +101,7 @@ namespace WorldRallyChampionship.Services.Core
 		}
 
 		public async Task<IEnumerable<OptionViewModel>> GetAllOptionsAsync()
-	=> await context.Drivers
+			=> await context.Drivers
 		.OrderBy(d => d.LastName).ThenBy(d => d.FirstName)
 		.Select(d => new OptionViewModel
 		{
@@ -109,5 +109,22 @@ namespace WorldRallyChampionship.Services.Core
 			Name = d.FirstName + " " + d.LastName
 		})
 		.ToListAsync();
+
+		public async Task<DriverFormModel?> GetFormByIdAsync(int id)
+		{
+			return await context.Drivers
+			.AsNoTracking()
+			.Where(d => d.Id == id)
+			.Select(d => new DriverFormModel
+			{
+				Id = d.Id,
+				FirstName = d.FirstName,
+				LastName = d.LastName,
+				Nationality = d.Nationality,
+				DateOfBirth = d.DateOfBirth,
+				TeamId = d.TeamId
+			})
+			.FirstOrDefaultAsync();
+		}
 	}
 }
