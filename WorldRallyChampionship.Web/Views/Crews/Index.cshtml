@@ -1,22 +1,75 @@
 ﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Crew.CrewViewModel>
-
 @{
 	ViewData["Title"] = "Teams & Drivers";
 	bool isAdmin = User.IsInRole("Administrator");
 }
+
+<style>
+	.crew-hero {
+		display: flex;
+		height: 220px;
+		overflow: hidden;
+		border-top-left-radius: .5rem;
+		border-top-right-radius: .5rem;
+	}
+
+		.crew-hero img {
+			width: 50%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+			.crew-hero img.driver {
+				left: 0;
+			}
+
+			.crew-hero img.codriver {
+				right: 0;
+			}
+
+
+	@@media (max-width: 992px) {
+		.crew-hero {
+			height: 200px;
+		}
+
+			.crew-hero img {
+				width: 65%;
+			}
+	}
+
+	.avatar-pair {
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		margin-bottom: .25rem;
+	}
+
+	.avatar {
+		width: 38px;
+		height: 38px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 2px solid #fff;
+		box-shadow: 0 0 1px rgba(0,0,0,.1);
+	}
+
+	.muted {
+		color: #6c757d;
+	}
+</style>
 
 <h2 class="mb-3">Teams & Drivers</h2>
 
 @if (Model == null || !Model.Any())
 {
 	<div class="alert alert-info">
-		<p>No crews yet.</p>
+		No crews yet.
 		@if (isAdmin)
 		{
-			<a asp-action="Create" class="alert-link">Create first.</a>
-		}
+			<a asp-action="Create" class="alert-link">Създай първия</a>
 
-	}
+		}
 	</div>
 }
 else
@@ -26,39 +79,44 @@ else
 		<a asp-action="Create" class="btn btn-primary btn-sm mb-3">Create Crew</a>
 	}
 
-	<div class="row row-cols-1 row-cols-md-3 g-3">
+	<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
 		@foreach (var c in Model)
 		{
-			var rawImg = !string.IsNullOrWhiteSpace(c.CarImageUrl)
-			? c.CarImageUrl
-			: (!string.IsNullOrWhiteSpace(c.DriverImageUrl) ? c.DriverImageUrl : "/img/placeholder.jpg");
 
-			var img = "~" + (rawImg.StartsWith("/") ? rawImg : ("/" + rawImg));
+			var drvRaw = string.IsNullOrWhiteSpace(c.DriverImageUrl) ? "/img/placeholder.jpg" : c.DriverImageUrl!;
+			var codRaw = string.IsNullOrWhiteSpace(c.CoDriverImageUrl) ? "/img/placeholder.jpg" : c.CoDriverImageUrl!;
+			var drvImg = Url.Content("~" + (drvRaw.StartsWith("/") ? drvRaw : "/" + drvRaw));
+			var codImg = Url.Content("~" + (codRaw.StartsWith("/") ? codRaw : "/" + codRaw));
 
 			<div class="col">
 				<div class="card h-100 shadow-sm">
-					<img src="@Url.Content(img)"
-						 class="card-img-top"
-						 style="height:200px;object-fit:cover;"
-						 alt="@c.TeamName" />
-					<div class="card-body">
-						<h5 class="card-title mb-1">@c.DriverName &amp; @c.CoDriverName</h5>
-						<div class="text-muted small mb-2">@c.TeamName</div>
+					<div class="crew-hero">
+						<img class="driver" src="@drvImg" alt="@c.DriverName" />
+						<img class="codriver" src="@codImg" alt="@c.CoDriverName" />
+					</div>
 
-						@if (!string.IsNullOrWhiteSpace(c.CarModel))
+					<div class="card-body">
+						<div class="avatar-pair">
+							<img class="avatar" src="@drvImg" alt="@c.DriverName" />
+							<img class="avatar" src="@codImg" alt="@c.CoDriverName" />
+							<div>
+								<div class="fw-semibold">@c.DriverName &amp; @c.CoDriverName</div>
+								<div class="muted small">@c.TeamName</div>
+							</div>
+						</div>
+
+						@if (!string.IsNullOrWhiteSpace(c.CarModel) || c.CarNumber.HasValue)
 						{
 							<div class="small">
 								Car: @c.CarModel
 								@if (c.CarNumber.HasValue)
 								{
-									<span>• #@c.CarNumber</span>
+									<span> • #@c.CarNumber</span>
 								}
 							</div>
 						}
 
-						<a asp-action="Details" asp-route-id="@c.Id" class="btn btn-outline-primary btn-sm mt-2">
-							Details
-						</a>
+						<a asp-action="Details" asp-route-id="@c.Id" class="btn btn-outline-primary btn-sm mt-2">Details</a>
 					</div>
 				</div>
 			</div>

@@ -1,26 +1,63 @@
 ﻿@model WorldRallyChampionship.Web.ViewModels.Crew.CrewViewModel
 @{
 	ViewData["Title"] = $"{Model.DriverName} & {Model.CoDriverName}";
-	string Img(string? u)
-	{
-		var p = string.IsNullOrWhiteSpace(u) ? "/img/placeholder.jpg" : u!;
-		return Url.Content("~" + (p.StartsWith("/") ? p : "/" + p));
-	}
 }
-<div class="row mb-3">
-	<div class="col-md-5">
-		<img src="@Img(Model.CarImageUrl ?? Model.DriverImageUrl)" class="img-fluid rounded shadow" />
+
+<style>
+	.crew-hero {
+		display: flex;
+		height: 300px;
+		overflow: hidden;
+		border-radius: .5rem;
+	}
+
+		.crew-hero img {
+			width: 30%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+	.avatar-pair {
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		margin-top: 1rem;
+	}
+
+	.avatar {
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 2px solid #fff;
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+	}
+</style>
+
+<div class="mb-3">
+	<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+</div>
+
+<div class="card shadow-sm">
+	<div class="crew-hero">
+		<img src="@Model.DriverImageUrl" alt="@Model.DriverName" />
+		<img src="@Model.CoDriverImageUrl" alt="@Model.CoDriverName" />
 	</div>
-	<div class="col-md-7">
-		<h3>@Model.DriverName &amp; @Model.CoDriverName</h3>
-		<p class="text-muted">@Model.TeamName</p>
+	<div class="card-body">
+		<h2>@Model.DriverName &amp; @Model.CoDriverName</h2>
+		<h5 class="text-muted">@Model.TeamName</h5>
+
 		@if (!string.IsNullOrWhiteSpace(Model.CarModel))
 		{
-			<p><strong>Car:</strong> @Model.CarModel @if (Model.CarNumber.HasValue)
+			<p>Car: @Model.CarModel @if (Model.CarNumber.HasValue)
 				{
 					<span>• #@Model.CarNumber</span>
 				}</p>
 		}
-		<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+
+		<div class="avatar-pair">
+			<img src="@Model.DriverImageUrl" alt="@Model.DriverName" class="avatar" />
+			<img src="@Model.CoDriverImageUrl" alt="@Model.CoDriverName" class="avatar" />
+		</div>
 	</div>
 </div>

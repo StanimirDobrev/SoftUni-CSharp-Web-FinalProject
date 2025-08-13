@@ -24,6 +24,8 @@ namespace WorldRallyChampionship.Data
 		{
 			base.OnModelCreating(builder);
 
+			
+
 			builder.Entity<Crew>()
 				.HasOne(c => c.Driver)
 				.WithMany()		
