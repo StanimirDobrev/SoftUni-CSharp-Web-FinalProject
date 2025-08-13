@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\bin\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.deps.json
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\bin\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\bin\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.pdb
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\bin\Debug\net8.0\WorldRallyChampionship.GCommon.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\bin\Debug\net8.0\WorldRallyChampionship.GCommon.pdb
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.sourcelink.json
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRal.3C59364D.Up2Date
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\refint\WorldRallyChampionship.Web.ViewModels.dll
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\WorldRallyChampionship.Web.ViewModels.pdb
+C:\Users\PC\Documents\GitHub\SoftUni-CSharp-Web-FinalProject\WorldRallyChampionship.Web.ViewModels\obj\Debug\net8.0\ref\WorldRallyChampionship.Web.ViewModels.dll

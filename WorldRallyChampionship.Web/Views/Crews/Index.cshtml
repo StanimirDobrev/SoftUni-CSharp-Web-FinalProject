@@ -10,11 +10,12 @@
 @if (Model == null || !Model.Any())
 {
 	<div class="alert alert-info">
-		No crews yet.
+		<p>No crews yet.</p>
 		@if (isAdmin)
 		{
-	<a asp-action="Create" class="alert-link">Създай първия</a>
-.
+			<a asp-action="Create" class="alert-link">Create first.</a>
+		}
+
 	}
 	</div>
 }

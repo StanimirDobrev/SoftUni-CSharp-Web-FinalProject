@@ -58,5 +58,17 @@ namespace WorldRallyChampionship.GCommon
 
 			public const int CarImageUrlMaxLength = 400;
 		}
+
+		public class CoDriver
+		{
+			public const int FirstNameMaxLength = 50;
+			public const int FirstNameMinLength = 2;
+
+			public const int LastNameMaxLength = 50;
+			public const int LastNameMinLength = 2;
+
+			public const int NationalityMaxLength = 50;
+			public const int NationalityMinLength = 2;
+		}
     }
 }

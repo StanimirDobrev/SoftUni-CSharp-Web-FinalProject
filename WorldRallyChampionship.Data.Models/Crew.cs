@@ -26,7 +26,7 @@ namespace WorldRallyChampionship.Data.Models
 
 
 		[ForeignKey(nameof(CoDriverId))] 
-		public Driver CoDriver { get; set; } = null!;
+		public CoDriver CoDriver { get; set; } = null!;
 
 
 		[Required] 
@@ -45,7 +45,7 @@ namespace WorldRallyChampionship.Data.Models
 		public int? CarNumber { get; set; }
 
 
-		[MaxLength(CarImageUrlMaxLength)] 
-		public string? CarImageUrl { get; set; }
-	}
+		[StringLength(CarImageUrlMaxLength)]
+        public string? CarImageUrl { get; set; }
+    }
 }

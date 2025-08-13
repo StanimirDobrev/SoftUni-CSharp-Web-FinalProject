@@ -29,6 +29,7 @@
   <ItemGroup>
     <Folder Include="Areas\Identity\Data\" />
     <Folder Include="wwwroot\img\drivers\" />
+    <Folder Include="wwwroot\img\co-drivers\" />
     <Folder Include="wwwroot\img\rallies\" />
   </ItemGroup>
 </Project>

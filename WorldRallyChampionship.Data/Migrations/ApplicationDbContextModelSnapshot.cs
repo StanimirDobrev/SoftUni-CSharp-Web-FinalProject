@@ -130,15 +130,15 @@ namespace WorldRallyChampionship.Data.Migrations
                         {
                             Id = "7699db7d-964f-4782-8209-d76562e0fece",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4c2b14b4-c327-47a6-ac5d-5d971749108d",
+                            ConcurrencyStamp = "cd39efc8-4f70-4250-a655-a7b758ce0f3e",
                             Email = "admin@horizons.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@HORIZONS.COM",
                             NormalizedUserName = "ADMIN@HORIZONS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBSbJRY6wBanQwxy25V+F5dqhZsLLuXnm8nZ8fT+KTIWZTQbrPNzHjourKp2+kZ5tA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMLi4DtS99CpSIqhpCgtU/5ZCaP6ky3gAQMzsIdrj+ayBoUIAT7gHVK0GV6k45Zivw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c58859e1-3233-4647-b87a-436d0cf2283a",
+                            SecurityStamp = "07de0b06-93a2-4bf4-a332-2956cc8eeee9",
                             TwoFactorEnabled = false,
                             UserName = "admin@horizons.com"
                         });
@@ -294,6 +294,107 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.CoDriver", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Nationality")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TeamId");
+
+                    b.ToTable("CoDriver");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateOfBirth = new DateTime(1985, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Jonne",
+                            ImageUrl = "/img/co-drivers/jonne-halttunen.jpg",
+                            LastName = "Halttunen",
+                            Nationality = "Finland",
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DateOfBirth = new DateTime(1981, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Scott",
+                            ImageUrl = "/img/co-drivers/scott-martin.jpg",
+                            LastName = "Martin",
+                            Nationality = "United Kingdom",
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DateOfBirth = new DateTime(1992, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Martijn",
+                            ImageUrl = "/img/co-drivers/martijn-wydaeghe.jpg",
+                            LastName = "Wydaeghe",
+                            Nationality = "Belgium",
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DateOfBirth = new DateTime(1987, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Martin",
+                            ImageUrl = "/img/co-drivers/martin-jarveoja.jpg",
+                            LastName = "Järveoja",
+                            Nationality = "Estonia",
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DateOfBirth = new DateTime(1993, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Alexandre",
+                            ImageUrl = "/img/co-drivers/alexandre-coria.jpg",
+                            LastName = "Coria",
+                            Nationality = "France",
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DateOfBirth = new DateTime(1998, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FirstName = "Louis",
+                            ImageUrl = "/img/co-drivers/louis-louka.jpg",
+                            LastName = "Louka",
+                            Nationality = "Belgium",
+                            TeamId = 3
+                        });
+                });
+
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Comment", b =>
                 {
                     b.Property<int>("Id")
@@ -369,6 +470,62 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("Crews");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CarModel = "Toyota GR Yaris Rally1",
+                            CarNumber = 69,
+                            CoDriverId = 1,
+                            DriverId = 1,
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CarModel = "Toyota GR Yaris Rally1",
+                            CarNumber = 33,
+                            CoDriverId = 2,
+                            DriverId = 2,
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CarModel = "Hyundai i20 N Rally1",
+                            CarNumber = 11,
+                            CoDriverId = 3,
+                            DriverId = 3,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CarModel = "Hyundai i20 N Rally1",
+                            CarNumber = 8,
+                            CoDriverId = 4,
+                            DriverId = 4,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CarModel = "Ford Puma Rally1",
+                            CarNumber = 16,
+                            CoDriverId = 5,
+                            DriverId = 5,
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CarModel = "Ford Puma Rally1",
+                            CarNumber = 27,
+                            CoDriverId = 6,
+                            DriverId = 6,
+                            TeamId = 3
+                        });
                 });
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Driver", b =>
@@ -750,6 +907,17 @@ namespace WorldRallyChampionship.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.CoDriver", b =>
+                {
+                    b.HasOne("WorldRallyChampionship.Data.Models.Team", "Team")
+                        .WithMany()
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Team");
+                });
+
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Comment", b =>
                 {
                     b.HasOne("WorldRallyChampionship.Data.Models.Driver", "Driver")
@@ -777,7 +945,7 @@ namespace WorldRallyChampionship.Data.Migrations
 
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Crew", b =>
                 {
-                    b.HasOne("WorldRallyChampionship.Data.Models.Driver", "CoDriver")
+                    b.HasOne("WorldRallyChampionship.Data.Models.CoDriver", "CoDriver")
                         .WithMany()
                         .HasForeignKey("CoDriverId")
                         .OnDelete(DeleteBehavior.Restrict)

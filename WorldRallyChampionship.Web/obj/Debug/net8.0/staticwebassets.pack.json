@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WorldRallyChampionship.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WorldRallyChampionship.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\alexandre-coria.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\alexandre-coria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\jonne-halttunen.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\jonne-halttunen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\louis-louka.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\louis-louka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\martijn-wydaeghe.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\martijn-wydaeghe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\martin-jarveoja.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\martin-jarveoja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\co-drivers\\scott-martin.jpg",
+      "PackagePath": "staticwebassets\\img\\co-drivers\\scott-martin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\adrien-fourmaux.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\adrien-fourmaux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\elfyn-evans.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\elfyn-evans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\gregoire-munster.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\gregoire-munster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\kalle-rovampera.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\kalle-rovampera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\ott-tanak.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\ott-tanak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\drivers\\thierry-neuville.jpg",
+      "PackagePath": "staticwebassets\\img\\drivers\\thierry-neuville.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\fight.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\fight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\monte.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\monte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\croatia-rally-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\croatia-rally-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\rallye-monte-carlo-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\rallye-monte-carlo-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\wrc-rally-sweden-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\wrc-rally-sweden-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\hyundai.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\hyundai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\m-sport ford.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\m-sport ford.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\teams\\toyota.jpg",
+      "PackagePath": "staticwebassets\\img\\teams\\toyota.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WorldRallyChampionship.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WorldRallyChampionship.Web.props",
+      "PackagePath": "build\\WorldRallyChampionship.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WorldRallyChampionship.Web.props",
+      "PackagePath": "buildMultiTargeting\\WorldRallyChampionship.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WorldRallyChampionship.Web.props",
+      "PackagePath": "buildTransitive\\WorldRallyChampionship.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
