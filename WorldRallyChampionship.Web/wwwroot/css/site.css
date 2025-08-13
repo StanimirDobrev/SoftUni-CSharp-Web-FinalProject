@@ -20,3 +20,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.object-cover {
+    object-fit: cover;
+}
+
+.hero img {
+    object-fit: cover;
+}
+
+.navbar .nav-link.active {
+    font-weight: 600;
+}
+
+.card-title {
+    letter-spacing: 0.2px;
+}

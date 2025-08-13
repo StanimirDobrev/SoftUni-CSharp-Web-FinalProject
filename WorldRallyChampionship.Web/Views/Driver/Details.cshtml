@@ -1,17 +1,36 @@
 ﻿@model WorldRallyChampionship.Web.ViewModels.Driver.DriverDetailsViewModel
 @{
-	ViewData["Title"] = Model.FullName;
-	string Img(string u) => Url.Content("~" + (u.StartsWith("/") ? u : "/" + u));
+	ViewData["Title"] = "Driver Details";
+	bool isAdmin = User.IsInRole("Administrator");
+	string Img(string? u) => Url.Content("~/" + (string.IsNullOrWhiteSpace(u) ? "img/placeholder.jpg" : u.TrimStart('/')));
+	var full = $"{Model.FirstName} {Model.LastName}";
 }
-<div class="row">
-	<div class="col-md-4">
-		<img src="@Img(Model.ImageUrl)" alt="@Model.FullName" class="img-fluid rounded shadow" />
+<div class="row g-4">
+	<div class="col-md-5">
+		<div class="card shadow-sm">
+			<img src="@Img(Model.ImageUrl)" alt="@full" class="card-img-top object-cover" style="height:320px;">
+		</div>
 	</div>
-	<div class="col-md-8">
-		<h2>@Model.FullName</h2>
-		<p><strong>Nationality:</strong> @Model.Nationality</p>
-		<p><strong>Date of birth:</strong> @Model.DateOfBirth.ToString("dd MMM yyyy")</p>
-		<p><strong>Team:</strong> @Model.TeamName</p>
-		<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+	<div class="col-md-7">
+		<div class="card shadow-sm">
+			<div class="card-body">
+				<h3 class="card-title mb-3">@full</h3>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item"><strong>Team:</strong> @Model.TeamName</li>
+					<li class="list-group-item"><strong>Nationality:</strong> @Model.Nationality</li>
+					<li class="list-group-item"><strong>Date of birth:</strong> @Model.DateOfBirth.ToString("dd MMM yyyy")</li>
+				</ul>
+				<div class="mt-3">
+					<a asp-action="Index" class="btn btn-outline-secondary">Back</a>
+					@if (isAdmin)
+					{
+						<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary ms-1">Edit</a>
+						<form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
+							<button class="btn btn-danger ms-1" onclick="return confirm('Delete this driver?')">Delete</button>
+						</form>
+					}
+				</div>
+			</div>
+		</div>
 	</div>
 </div>

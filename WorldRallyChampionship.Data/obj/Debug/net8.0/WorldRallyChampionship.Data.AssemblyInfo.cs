@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldRallyChampionship.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+273cfd3e1cdf505fa304b898eaba72cd3ed734c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f19112eeeeda15615281bec4fb2ea87e0d872fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorldRallyChampionship.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldRallyChampionship.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
