@@ -33,6 +33,7 @@ public class Program
 		builder.Services.AddScoped<IRallyEventService, RallyEventService>();
 		builder.Services.AddScoped<INewsService, NewsService>();
 		builder.Services.AddScoped<ICrewService, CrewService>();
+		builder.Services.AddScoped<IStandingsService, StandingsService>();
 
 
 		var app = builder.Build();

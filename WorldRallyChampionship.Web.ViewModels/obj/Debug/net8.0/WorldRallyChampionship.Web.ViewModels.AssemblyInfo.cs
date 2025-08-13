@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldRallyChampionship.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15da71feda855926483e2f2a025410a5219f258e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+273cfd3e1cdf505fa304b898eaba72cd3ed734c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorldRallyChampionship.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldRallyChampionship.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

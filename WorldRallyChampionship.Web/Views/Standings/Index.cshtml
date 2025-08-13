@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WorldRallyChampionship.Web.ViewModels.Standing.RallyListItemViewModel>
+@{
+	ViewData["Title"] = "Results";
+}
+
+<h2 class="mb-3">Rally Results</h2>
+
+<table class="table table-hover align-middle">
+	<thead class="table-light">
+		<tr>
+			<th>Rally</th>
+			<th>Country</th>
+			<th>Surface</th>
+			<th>Start</th>
+			<th class="text-center">Results</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var r in Model)
+		{
+			<tr>
+				<td>@r.Name</td>
+				<td>@r.Country</td>
+				<td>@r.Surface</td>
+				<td>@r.StartDate:dd MMM yyyy</td>
+				<td class="text-center">
+					@if (r.HasResults)
+					{
+						<a asp-action="Details" asp-route-id="@r.Id" class="btn btn-sm btn-primary">View</a>
+					}
+					else
+					{
+						<span class="text-muted">TBA</span>
+					}
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

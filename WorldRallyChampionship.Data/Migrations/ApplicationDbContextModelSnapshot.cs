@@ -47,14 +47,6 @@ namespace WorldRallyChampionship.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "f2c4d3a1-bb93-4b29-bd38-9e98d60f6f01",
-                            Name = "Administrator",
-                            NormalizedName = "ADMINISTRATOR"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -80,76 +72,6 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetRoleClaims", (string)null);
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("IdentityUser");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "7699db7d-964f-4782-8209-d76562e0fece",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "42ae65bd-7807-4b4a-a7c1-451e2a2c69f9",
-                            Email = "admin@horizons.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@HORIZONS.COM",
-                            NormalizedUserName = "ADMIN@HORIZONS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFnW1f+n0sBgn6rw/tabeRDnbNtgtNMB5oiV48owqe8UKIUFgwIqC4g2gUz69dW8aw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "f89b3256-fb32-4a98-aa09-3a1c316993ab",
-                            TwoFactorEnabled = false,
-                            UserName = "admin@horizons.com"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -214,13 +136,6 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "7699db7d-964f-4782-8209-d76562e0fece",
-                            RoleId = "f2c4d3a1-bb93-4b29-bd38-9e98d60f6f01"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -822,6 +737,115 @@ namespace WorldRallyChampionship.Data.Migrations
                     b.ToTable("Results");
                 });
 
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.Standing", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CrewId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DiffToLeader")
+                        .HasMaxLength(32)
+                        .HasColumnType("nvarchar(32)");
+
+                    b.Property<int>("Points")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Position")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PowerStagePoints")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RallyEventId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TotalTime")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("nvarchar(32)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CrewId");
+
+                    b.HasIndex("RallyEventId");
+
+                    b.ToTable("Standings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CrewId = 3,
+                            DiffToLeader = "",
+                            Points = 25,
+                            Position = 1,
+                            PowerStagePoints = 5,
+                            RallyEventId = 1,
+                            TotalTime = "3:26:18.4"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CrewId = 2,
+                            DiffToLeader = "+10.3",
+                            Points = 18,
+                            Position = 2,
+                            PowerStagePoints = 4,
+                            RallyEventId = 1,
+                            TotalTime = "3:26:28.7"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CrewId = 5,
+                            DiffToLeader = "+51.7",
+                            Points = 15,
+                            Position = 3,
+                            PowerStagePoints = 3,
+                            RallyEventId = 1,
+                            TotalTime = "3:27:10.1"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CrewId = 2,
+                            DiffToLeader = "",
+                            Points = 25,
+                            Position = 1,
+                            PowerStagePoints = 3,
+                            RallyEventId = 2,
+                            TotalTime = "2:43:02.0"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CrewId = 4,
+                            DiffToLeader = "+8.6",
+                            Points = 18,
+                            Position = 2,
+                            PowerStagePoints = 5,
+                            RallyEventId = 2,
+                            TotalTime = "2:43:10.6"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CrewId = 6,
+                            DiffToLeader = "+42.3",
+                            Points = 15,
+                            Position = 3,
+                            PowerStagePoints = 2,
+                            RallyEventId = 2,
+                            TotalTime = "2:43:44.3"
+                        });
+                });
+
             modelBuilder.Entity("WorldRallyChampionship.Data.Models.Team", b =>
                 {
                     b.Property<int>("Id")
@@ -1011,6 +1035,25 @@ namespace WorldRallyChampionship.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Driver");
+
+                    b.Navigation("RallyEvent");
+                });
+
+            modelBuilder.Entity("WorldRallyChampionship.Data.Models.Standing", b =>
+                {
+                    b.HasOne("WorldRallyChampionship.Data.Models.Crew", "Crew")
+                        .WithMany()
+                        .HasForeignKey("CrewId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WorldRallyChampionship.Data.Models.RallyEvent", "RallyEvent")
+                        .WithMany()
+                        .HasForeignKey("RallyEventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Crew");
 
                     b.Navigation("RallyEvent");
                 });

@@ -1,0 +1,59 @@
+﻿@model WorldRallyChampionship.Web.ViewModels.Standing.RallyResultsViewModel
+@{
+	ViewData["Title"] = $"{Model.RallyName} – Results";
+}
+
+<div class="d-flex align-items-center mb-3">
+	<div>
+		<h2 class="mb-1">@Model.RallyName</h2>
+		<div class="text-muted">@Model.Country • @Model.Surface • @Model.StartDate:dd MMM – @Model.EndDate:dd MMM yyyy</div>
+	</div>
+</div>
+
+@if (Model.Rows == null || !Model.Rows.Any())
+{
+	<div class="alert alert-info">No results yet.</div>
+}
+else
+{
+	<div class="table-responsive">
+		<table class="table table-striped table-bordered align-middle">
+			<thead class="table-light">
+				<tr>
+					<th style="width:80px;">Pos</th>
+					<th>Driver / Co-Driver</th>
+					<th>Team</th>
+					<th>Car</th>
+					<th class="text-nowrap">Total Time</th>
+					<th class="text-nowrap">Diff</th>
+					<th class="text-center">Pts</th>
+					<th class="text-center">PS</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var r in Model.Rows)
+				{
+					<tr>
+						<td>@r.Position</td>
+						<td>
+							<div class="fw-semibold">@r.DriverName</div>
+							<div class="text-muted small">@r.CoDriverName</div>
+						</td>
+						<td>@r.TeamName</td>
+						<td>
+							@r.CarModel
+							@if (r.CarNumber.HasValue)
+							{
+								<span class="text-muted small"> • #@r.CarNumber</span>
+							}
+						</td>
+						<td class="text-nowrap">@r.TotalTime</td>
+						<td class="text-nowrap">@r.DiffToLeader</td>
+						<td class="text-center">@r.Points</td>
+						<td class="text-center">@r.PowerStagePoints</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+}
