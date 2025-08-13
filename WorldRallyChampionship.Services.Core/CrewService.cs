@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using WorldRallyChampionship.Data;
 using WorldRallyChampionship.Services.Core.Contracts;
 using WorldRallyChampionship.Web.ViewModels.Crew;
-using WorldRallyChampionship.Web.ViewModels.Common;
+using static WorldRallyChampionship.Web.ViewModels.Common.OptionViewModel;
 
 namespace WorldRallyChampionship.Services.Core
 {
@@ -61,13 +61,13 @@ namespace WorldRallyChampionship.Services.Core
 		public async Task<int> CreateAsync(CrewFormModel m)
 		{
 			if (m.DriverId == m.CoDriverId)
-				throw new ArgumentException("Driver и Co-Driver не може да са един и същ.");
+				throw new ArgumentException("Driver and Co-Driver cannot be the same.");
 
 			var exists = await dbContext.Drivers.AnyAsync(d => d.Id == m.DriverId) &&
 						 await dbContext.Drivers.AnyAsync(d => d.Id == m.CoDriverId) &&
 						 await dbContext.Teams.AnyAsync(t => t.Id == m.TeamId);
 
-			if (!exists) throw new ArgumentException("Невалидни Driver/Co-Driver/Team.");
+			if (!exists) throw new ArgumentException("Invalid Driver/Co-Driver/Team.");
 
 			var entity = new Data.Models.Crew
 			{

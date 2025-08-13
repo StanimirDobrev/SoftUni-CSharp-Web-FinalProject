@@ -63,7 +63,27 @@ namespace WorldRallyChampionship.Data
 				new IdentityUser { UserName = "admin@horizons.com" },
 				"Admin123!")
 			};
-			builder.Entity<IdentityUser>().HasData(defaultUser);
+
+			//builder.Entity<IdentityUser>().HasData(defaultUser);
+
+			//var adminRoleId = "f2c4d3a1-bb93-4b29-bd38-9e98d60f6f01";
+
+			//builder.Entity<IdentityRole>().HasData(
+			//	new IdentityRole
+			//	{
+			//		Id = adminRoleId,
+			//		Name = "Administrator",
+			//		NormalizedName = "ADMINISTRATOR"
+			//	}
+			//);
+
+			//builder.Entity<IdentityUserRole<string>>().HasData(
+			//	new IdentityUserRole<string>
+			//	{
+			//		UserId = defaultUser.Id,
+			//		RoleId = adminRoleId
+			//	}
+			//);
 
 			// Teams
 			builder.Entity<Team>().HasData(

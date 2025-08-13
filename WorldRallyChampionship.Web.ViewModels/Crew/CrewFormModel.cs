@@ -35,6 +35,8 @@ namespace WorldRallyChampionship.Web.ViewModels.Crew
 
 
 		public IEnumerable<OptionViewModel> Drivers { get; set; } = Enumerable.Empty<OptionViewModel>();
+
+		public IEnumerable<OptionViewModel> CoDrivers { get; set; } = Enumerable.Empty<OptionViewModel>();
 		public IEnumerable<OptionViewModel> Teams { get; set; } = Enumerable.Empty<OptionViewModel>();
 	}
 }
