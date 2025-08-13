@@ -12,6 +12,7 @@ namespace WorldRallyChampionship.Data
 		{
 		}
 
+		public virtual DbSet<Standing> Standings { get; set; } = null!;
 		public virtual DbSet<RallyEvent> RallyEvents { get; set; } = null!;
 		public virtual DbSet<Driver> Drivers { get; set; } = null!;
 		public virtual DbSet<Team> Teams { get; set; } = null!;
@@ -64,26 +65,6 @@ namespace WorldRallyChampionship.Data
 				"Admin123!")
 			};
 
-			//builder.Entity<IdentityUser>().HasData(defaultUser);
-
-			//var adminRoleId = "f2c4d3a1-bb93-4b29-bd38-9e98d60f6f01";
-
-			//builder.Entity<IdentityRole>().HasData(
-			//	new IdentityRole
-			//	{
-			//		Id = adminRoleId,
-			//		Name = "Administrator",
-			//		NormalizedName = "ADMINISTRATOR"
-			//	}
-			//);
-
-			//builder.Entity<IdentityUserRole<string>>().HasData(
-			//	new IdentityUserRole<string>
-			//	{
-			//		UserId = defaultUser.Id,
-			//		RoleId = adminRoleId
-			//	}
-			//);
 
 			// Teams
 			builder.Entity<Team>().HasData(
@@ -184,6 +165,19 @@ namespace WorldRallyChampionship.Data
 				new Crew { Id = 4, DriverId = 4, CoDriverId = 4, TeamId = 2, CarModel = "Hyundai i20 N Rally1", CarNumber = 8},
 				new Crew { Id = 5, DriverId = 5, CoDriverId = 5, TeamId = 3, CarModel = "Ford Puma Rally1", CarNumber = 16},
 				new Crew { Id = 6, DriverId = 6, CoDriverId = 6, TeamId = 3, CarModel = "Ford Puma Rally1", CarNumber = 27}
+			);
+
+			//Standings
+			builder.Entity<Standing>().HasData(
+				// Monte-Carlo
+				new Standing { Id = 1, RallyEventId = 1, CrewId = 3, Position = 1, TotalTime = "3:26:18.4", DiffToLeader = "", Points = 25, PowerStagePoints = 5 }, // Neuville/Wydaeghe
+				new Standing { Id = 2, RallyEventId = 1, CrewId = 2, Position = 2, TotalTime = "3:26:28.7", DiffToLeader = "+10.3", Points = 18, PowerStagePoints = 4 }, // Evans/Martin
+				new Standing { Id = 3, RallyEventId = 1, CrewId = 5, Position = 3, TotalTime = "3:27:10.1", DiffToLeader = "+51.7", Points = 15, PowerStagePoints = 3 }, // Fourmaux/Coria
+
+				// Sweden
+				new Standing { Id = 4, RallyEventId = 2, CrewId = 2, Position = 1, TotalTime = "2:43:02.0", DiffToLeader = "", Points = 25, PowerStagePoints = 3 },
+				new Standing { Id = 5, RallyEventId = 2, CrewId = 4, Position = 2, TotalTime = "2:43:10.6", DiffToLeader = "+8.6", Points = 18, PowerStagePoints = 5 },
+				new Standing { Id = 6, RallyEventId = 2, CrewId = 6, Position = 3, TotalTime = "2:43:44.3", DiffToLeader = "+42.3", Points = 15, PowerStagePoints = 2 }
 			);
 		}
 	}
