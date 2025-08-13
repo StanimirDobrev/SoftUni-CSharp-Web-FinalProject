@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WorldRallyChampionship.Services.Core.Contracts;
 using WorldRallyChampionship.Web.ViewModels.Crew;
-using static WorldRallyChampionship.Web.ViewModels.Common.OptionViewModel;
+
 
 namespace WorldRallyChampionship.Web.Controllers
 {
@@ -36,7 +36,7 @@ namespace WorldRallyChampionship.Web.Controllers
 		{
 			var model = new CrewFormModel
 			{
-				Drivers = (IEnumerable<ViewModels.OptionViewModel>) await drivers.GetAllOptionsAsync(),
+				Drivers = (IEnumerable<ViewModels.Common.OptionViewModel>) await drivers.GetAllOptionsAsync(),
 				Teams = await teams.GetAllOptionsAsync()
 			};
 			return View(model);
@@ -51,7 +51,7 @@ namespace WorldRallyChampionship.Web.Controllers
 
 			if (!ModelState.IsValid)
 			{
-				model.Drivers = (IEnumerable<ViewModels.OptionViewModel>)await drivers.GetAllOptionsAsync();
+				model.Drivers = (IEnumerable<ViewModels.Common.OptionViewModel>)await drivers.GetAllOptionsAsync();
 				model.Teams = await teams.GetAllOptionsAsync();
 				return View(model);
 			}

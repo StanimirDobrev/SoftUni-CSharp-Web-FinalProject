@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static WorldRallyChampionship.GCommon.ValidationConstants.Crew;
+using WorldRallyChampionship.Web.ViewModels.Common;
 
 namespace WorldRallyChampionship.Web.ViewModels.Crew
 {
