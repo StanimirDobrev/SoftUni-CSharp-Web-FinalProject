@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NDBDKU5DxuIbdlqz68h3NxNfLKnNFYTSonuER8Dd4Nw=",
+  "Hash": "wpfmwhDJWUOxgfQMrIMZBQt/D/CAssHfjuONUXXiZc8=",
   "Source": "WorldRallyChampionship.Web",
   "BasePath": "_content/WorldRallyChampionship.Web",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WorldRallyChampionship.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\css\\mycss.css",
+      "SourceId": "WorldRallyChampionship.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\",
+      "BasePath": "_content/WorldRallyChampionship.Web",
+      "RelativePath": "css/mycss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mycss.css"
     },
     {
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\css\\site.css",
