@@ -65,20 +65,48 @@
       "PackagePath": "staticwebassets\\img\\drivers\\thierry-neuville.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\acropolis-route.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\acropolis-route.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\fight.jpg",
       "PackagePath": "staticwebassets\\img\\news\\fight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\finland-shakedown.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\finland-shakedown.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\monte.jpg",
       "PackagePath": "staticwebassets\\img\\news\\monte.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\safari-preview.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\safari-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\news\\title-fight.jpg",
+      "PackagePath": "staticwebassets\\img\\news\\title-fight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\acropolis-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\acropolis-2025.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\croatia-rally-2025.jpg",
       "PackagePath": "staticwebassets\\img\\rallies\\croatia-rally-2025.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\rally-finland-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\rally-finland-2025.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\rallye-monte-carlo-2025.jpg",
       "PackagePath": "staticwebassets\\img\\rallies\\rallye-monte-carlo-2025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\safari-kenya-2025.jpg",
+      "PackagePath": "staticwebassets\\img\\rallies\\safari-kenya-2025.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\wwwroot\\img\\rallies\\wrc-rally-sweden-2025.jpg",

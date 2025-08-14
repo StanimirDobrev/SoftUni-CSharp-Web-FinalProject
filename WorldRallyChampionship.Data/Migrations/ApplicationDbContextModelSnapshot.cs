@@ -626,6 +626,54 @@ namespace WorldRallyChampionship.Data.Migrations
                             PublishedOn = new DateTime(2025, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Summary = "Point gap narrows after dramatic Power Stage.",
                             Title = "Evans vs Neuville: Early Title Fight"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Author = "WRC Editorial",
+                            Content = "Full preview: tyre choices, service plans and dust mitigation.",
+                            ImageUrl = "/img/news/safari-preview.jpg",
+                            IsFeatured = false,
+                            PublishedOn = new DateTime(2025, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SourceUrl = "https://example.com/safari-preview",
+                            Summary = "Teams prepare for Naivasha’s punishing fesh-fesh.",
+                            Title = "Safari preview: dust and strategy"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Author = "Press",
+                            Content = "Shakedown analysis and quotes from leading crews.",
+                            ImageUrl = "/img/news/finland-shakedown.jpg",
+                            IsFeatured = true,
+                            PublishedOn = new DateTime(2025, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SourceUrl = "https://example.com/finland-shakedown",
+                            Summary = "High-speed confidence ahead of the jumps.",
+                            Title = "Finland shakedown times released"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Author = "WRC Editorial",
+                            Content = "Route notes, stage profiles and car setup talk.",
+                            ImageUrl = "/img/news/acropolis-route.jpg",
+                            IsFeatured = false,
+                            PublishedOn = new DateTime(2025, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SourceUrl = "https://example.com/acropolis-route",
+                            Summary = "Heat and rocks set to test reliability.",
+                            Title = "Acropolis returns with brutal stages"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Author = "Press",
+                            Content = "Points permutations and power stage impact.",
+                            ImageUrl = "/img/news/title-fight.jpg",
+                            IsFeatured = true,
+                            PublishedOn = new DateTime(2025, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SourceUrl = "https://example.com/title-fight",
+                            Summary = "Title race within single digits after summer rounds.",
+                            Title = "Championship fight tightens"
                         });
                 });
 
@@ -702,6 +750,39 @@ namespace WorldRallyChampionship.Data.Migrations
                             Name = "Croatia Rally",
                             StartDate = new DateTime(2025, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Surface = "Tarmac"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Country = "Kenya",
+                            Description = "Iconic rough gravel endurance rally around Naivasha.",
+                            EndDate = new DateTime(2025, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "/img/rallies/safari-kenya-2025.jpg",
+                            Name = "Safari Rally Kenya",
+                            StartDate = new DateTime(2025, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Gravel"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Country = "Finland",
+                            Description = "Fast jumps and crests around Jyväskylä.",
+                            EndDate = new DateTime(2025, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "/img/rallies/rally-finland-2025.jpg",
+                            Name = "Rally Finland",
+                            StartDate = new DateTime(2025, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Gravel"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Country = "Greece",
+                            Description = "Twisty, rocky mountain roads and heat management.",
+                            EndDate = new DateTime(2025, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "/img/rallies/acropolis-2025.jpg",
+                            Name = "Acropolis Rally Greece",
+                            StartDate = new DateTime(2025, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Surface = "Gravel"
                         });
                 });
 

@@ -117,6 +117,39 @@ namespace WorldRallyChampionship.Data
 					Surface = "Tarmac",
 					Description = "Technical tarmac with tricky cuts.",
 					ImageUrl = "/img/rallies/croatia-rally-2025.jpg"
+				},
+				new RallyEvent
+				{
+					Id = 4,
+					Name = "Safari Rally Kenya",
+					Country = "Kenya",
+					StartDate = new DateTime(2025, 6, 26),
+					EndDate = new DateTime(2025, 6, 29),
+					Surface = "Gravel",
+					Description = "Iconic rough gravel endurance rally around Naivasha.",
+					ImageUrl = "/img/rallies/safari-kenya-2025.jpg"
+				},
+				new RallyEvent
+				{
+					Id = 5,
+					Name = "Rally Finland",
+					Country = "Finland",
+					StartDate = new DateTime(2025, 8, 1),
+					EndDate = new DateTime(2025, 8, 3),
+					Surface = "Gravel",
+					Description = "Fast jumps and crests around Jyväskylä.",
+					ImageUrl = "/img/rallies/rally-finland-2025.jpg"
+				},
+				new RallyEvent
+				{
+					Id = 6,
+					Name = "Acropolis Rally Greece",
+					Country = "Greece",
+					StartDate = new DateTime(2025, 9, 5),
+					EndDate = new DateTime(2025, 9, 7),
+					Surface = "Gravel",
+					Description = "Twisty, rocky mountain roads and heat management.",
+					ImageUrl = "/img/rallies/acropolis-2025.jpg"
 				});
 
 			//News
@@ -144,8 +177,55 @@ namespace WorldRallyChampionship.Data
 					Author = "Press",
 					PublishedOn = new DateTime(2025, 2, 2),
 					IsFeatured = true
-				}
-				);
+				},
+				new News
+				{
+					Id = 3,
+					Title = "Safari preview: dust and strategy",
+					Summary = "Teams prepare for Naivasha’s punishing fesh-fesh.",
+					Content = "Full preview: tyre choices, service plans and dust mitigation.",
+					ImageUrl = "/img/news/safari-preview.jpg",
+					Author = "WRC Editorial",
+					PublishedOn = new DateTime(2025, 6, 20),
+					IsFeatured = false,
+					SourceUrl = "https://example.com/safari-preview"
+				},
+				new News
+				{
+					Id = 4,
+					Title = "Finland shakedown times released",
+					Summary = "High-speed confidence ahead of the jumps.",
+					Content = "Shakedown analysis and quotes from leading crews.",
+					ImageUrl = "/img/news/finland-shakedown.jpg",
+					Author = "Press",
+					PublishedOn = new DateTime(2025, 7, 31),
+					IsFeatured = true,
+					SourceUrl = "https://example.com/finland-shakedown"
+				},
+				new News
+				{
+					Id = 5,
+					Title = "Acropolis returns with brutal stages",
+					Summary = "Heat and rocks set to test reliability.",
+					Content = "Route notes, stage profiles and car setup talk.",
+					ImageUrl = "/img/news/acropolis-route.jpg",
+					Author = "WRC Editorial",
+					PublishedOn = new DateTime(2025, 8, 28),
+					IsFeatured = false,
+					SourceUrl = "https://example.com/acropolis-route"
+				},
+				new News
+				{
+					Id = 6,
+					Title = "Championship fight tightens",
+					Summary = "Title race within single digits after summer rounds.",
+					Content = "Points permutations and power stage impact.",
+					ImageUrl = "/img/news/title-fight.jpg",
+					Author = "Press",
+					PublishedOn = new DateTime(2025, 9, 8),
+					IsFeatured = true,
+					SourceUrl = "https://example.com/title-fight"
+				});
 
 			// CoDrivers
 			builder.Entity<CoDriver>().HasData(
