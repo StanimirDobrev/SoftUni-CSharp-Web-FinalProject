@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldRallyChampionship.Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldRallyChampionship.GCommon", "..\WorldRallyChampionship.GCommon\WorldRallyChampionship.GCommon.csproj", "{CD759736-025F-4F44-BEF5-D31996E4D75F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldRallyChampionship.Web.ViewModels", "..\WorldRallyChampionship.Web.ViewModels\WorldRallyChampionship.Web.ViewModels.csproj", "{598C05E8-FFEE-49F1-9FE7-5FADE307785B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldRallyChampionship.Web.ViewModels", "..\WorldRallyChampionship.Web.ViewModels\WorldRallyChampionship.Web.ViewModels.csproj", "{598C05E8-FFEE-49F1-9FE7-5FADE307785B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldRallyChampionship.Tests", "..\WorldRallyChampionship.Tests\WorldRallyChampionship.Tests.csproj", "{664E6F18-659F-4F61-8717-32D9C601A453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{598C05E8-FFEE-49F1-9FE7-5FADE307785B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598C05E8-FFEE-49F1-9FE7-5FADE307785B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598C05E8-FFEE-49F1-9FE7-5FADE307785B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664E6F18-659F-4F61-8717-32D9C601A453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664E6F18-659F-4F61-8717-32D9C601A453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664E6F18-659F-4F61-8717-32D9C601A453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664E6F18-659F-4F61-8717-32D9C601A453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

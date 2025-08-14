@@ -5,7 +5,6 @@ using WorldRallyChampionship.Web.ViewModels.Driver;
 
 namespace WorldRallyChampionship.Web.Controllers
 {
-	// URL-овете ще са /Drivers/...
 	public class DriverController : Controller
 	{
 		private readonly IDriverService _driverService;
@@ -19,12 +18,11 @@ namespace WorldRallyChampionship.Web.Controllers
 
 		private async Task PopulateTeamsAsync(int? selectedId = null)
 		{
-			// ВАЖНО: ITeamService.GetAllOptionsAsync да връща единния OptionViewModel (Web.ViewModels.Common)
 			var options = await _teamService.GetAllOptionsAsync();
 			ViewBag.Teams = new SelectList(options, "Id", "Name", selectedId);
 		}
 
-		// GET: /Drivers
+
 		[HttpGet]
 		public async Task<IActionResult> Index()
 		{
@@ -32,7 +30,7 @@ namespace WorldRallyChampionship.Web.Controllers
 			return View(drivers);
 		}
 
-		// GET: /Drivers/Details/5
+
 		[HttpGet]
 		public async Task<IActionResult> Details(int id)
 		{
@@ -41,19 +39,18 @@ namespace WorldRallyChampionship.Web.Controllers
 			return View(model);
 		}
 
-		// GET: /Drivers/Create
 		[HttpGet]
 		public async Task<IActionResult> Create()
 		{
 			await PopulateTeamsAsync();
-			// По избор – default стойности
+
 			return View(new DriverFormModel
 			{
 				DateOfBirth = DateTime.UtcNow.AddYears(-25)
 			});
 		}
 
-		// POST: /Drivers/Create
+
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(DriverFormModel model)
@@ -71,17 +68,15 @@ namespace WorldRallyChampionship.Web.Controllers
 			}
 			catch (ArgumentException ex)
 			{
-				// напр. "Invalid team."
+
 				ModelState.AddModelError(string.Empty, ex.Message);
 				await PopulateTeamsAsync(model.TeamId);
 				return View(model);
 			}
 		}
 
-		// GET: /Drivers/Edit/5
 		public async Task<IActionResult> Edit(int id)
 		{
-			// Нужен ни е TeamId => взимаме форма-модела от сервиса
 			var formModel = await _driverService.GetFormByIdAsync(id);
 			if (formModel == null) return NotFound();
 
@@ -89,7 +84,6 @@ namespace WorldRallyChampionship.Web.Controllers
 			return View(formModel);
 		}
 
-		// POST: /Drivers/Edit/5
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Edit(int id, DriverFormModel model)
@@ -117,7 +111,6 @@ namespace WorldRallyChampionship.Web.Controllers
 			}
 		}
 
-		// GET: /Drivers/Delete/5
 		public async Task<IActionResult> Delete(int id)
 		{
 			var model = await _driverService.GetByIdAsync(id);
@@ -125,7 +118,6 @@ namespace WorldRallyChampionship.Web.Controllers
 			return View(model);
 		}
 
-		// POST: /Drivers/Delete/5
 		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> DeleteConfirmed(int id)

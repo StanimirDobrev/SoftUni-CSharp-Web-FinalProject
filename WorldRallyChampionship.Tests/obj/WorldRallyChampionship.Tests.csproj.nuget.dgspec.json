@@ -1,0 +1,653 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Tests\\WorldRallyChampionship.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj",
+        "projectName": "WorldRallyChampionship.Data.Models",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj",
+        "projectName": "WorldRallyChampionship.Data",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
+        "projectName": "WorldRallyChampionship.GCommon",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj",
+        "projectName": "WorldRallyChampionship.Services.Core",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data.Models\\WorldRallyChampionship.Data.Models.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Tests\\WorldRallyChampionship.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Tests\\WorldRallyChampionship.Tests.csproj",
+        "projectName": "WorldRallyChampionship.Tests",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Tests\\WorldRallyChampionship.Tests.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\WorldRallyChampionship.Web.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\WorldRallyChampionship.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj",
+        "projectName": "WorldRallyChampionship.Web.ViewModels",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.GCommon\\WorldRallyChampionship.GCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\WorldRallyChampionship.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\WorldRallyChampionship.Web.csproj",
+        "projectName": "WorldRallyChampionship.Web",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\WorldRallyChampionship.Web.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Data\\WorldRallyChampionship.Data.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Services.Core\\WorldRallyChampionship.Services.Core.csproj"
+              },
+              "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\SoftUni-CSharp-Web-FinalProject\\WorldRallyChampionship.Web.ViewModels\\WorldRallyChampionship.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

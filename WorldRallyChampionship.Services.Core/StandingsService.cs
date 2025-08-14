@@ -25,7 +25,7 @@ namespace WorldRallyChampionship.Services.Core
 					Country = r.Country,
 					Surface = r.Surface,
 					StartDate = r.StartDate,
-					HasResults = context.Results.Any(x => x.RallyEventId == r.Id)
+					HasResults = context.Standings.Any(x => x.RallyEventId == r.Id)
 				})
 				.OrderBy(r => r.StartDate)
 				.ToListAsync();

@@ -13,13 +13,20 @@ namespace WorldRallyChampionship.Data.Models
 		[Key]
 		public int Id { get; set; }
 
+
 		[ForeignKey(nameof(RallyEvent))]
 		public int RallyEventId { get; set; }
+
+
 		public RallyEvent RallyEvent { get; set; } = null!;
+
 
 		[ForeignKey(nameof(Crew))]
 		public int CrewId { get; set; }
+
+
 		public Crew Crew { get; set; } = null!;
+
 
 		[Range(1, 200)]
 		public int Position { get; set; }
@@ -28,8 +35,11 @@ namespace WorldRallyChampionship.Data.Models
 		[Required, MaxLength(32)]
 		public string TotalTime { get; set; } = null!;
 
+
+
 		[MaxLength(32)]
 		public string? DiffToLeader { get; set; }
+
 
 
 		[Range(0, 30)]
